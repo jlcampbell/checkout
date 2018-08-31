@@ -18,4 +18,12 @@ public class Tests {
         PriceList priceList = new PriceList();
         assertEquals(0, priceList.getNumberOfItems());
     }
+
+
+//  Item object
+    @Test
+    public void initializeNewItemWithAPriceQueryForPriceReturnsPrice(){
+        Item orange = new Item("orange", 1.35);
+        assertEquals(1.35, orange.getPrice(), 0.01);
+    }
 }
