@@ -10,13 +10,17 @@ public class Tests {
         assertEquals(0, register.getTotal());
     }
 
-
-
-//  seller pricing api
+//  seller pricelist
     @Test
     public void whenNewPriceListIsQueriedSizeIs0(){
         PriceList priceList = new PriceList();
         assertEquals(0, priceList.getNumberOfItems());
+    }
+    @Test
+    public void whenOneItemIsAddedToPriceListSizeIs1(){
+        PriceList priceList = new PriceList();
+        priceList.addItem("bread loaf", 0.99);
+        assertEquals(1, priceList.getNumberOfItems());
     }
 
 

@@ -1,12 +1,21 @@
 import org.json.simple.JSONObject;
 
+import java.util.HashMap;
+
 public class PriceList {
+    private HashMap<String, Item> mItems;
+
+    public PriceList(){
+        mItems = new HashMap<String, Item>();
+    }
 
     public int getNumberOfItems(){
-        return 0;
+        return mItems.size();
     }
-    public void addItem(String name, long price){
+    public void addItem(String name, double price){
+        Item temp = new Item(name, price);
+        mItems.put(name, temp);
+    }
 
-    }
 
 }
