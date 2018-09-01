@@ -18,4 +18,7 @@ public class PriceList {
     }
 
 
+    public Item getItem(String name) {
+        return mItems.get(name);
+    }
 }

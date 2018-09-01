@@ -22,6 +22,13 @@ public class Tests {
         priceList.addItem("bread loaf", 0.99);
         assertEquals(1, priceList.getNumberOfItems());
     }
+    @Test
+    public void whenGetItemIsCalledOnItemInPriceListItemIsReturned(){
+        PriceList priceList = new PriceList();
+        priceList.addItem("bread loaf", 0.99);
+        Item temp = new Item("bread loaf", 0.99);
+        assertEquals(0.99, priceList.getItem("bread loaf").getPrice(), 0.01);
+    }
 
 
 //  Item object
