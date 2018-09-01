@@ -38,7 +38,13 @@ public class Tests {
         assertEquals(1, register.getTotal(), 0.01);
     }
     //test weighted item with markdown
-
+    @Test
+    public void whenWeighedItemMarkedDownReflectsUnitPriceMinusMarkdown(){
+        Register register = new Register();
+        register.addNewItemToPriceList("banana", 2, 1);
+        register.scanItemByWeight("banana", 1.5);
+        assertEquals(2, register.getTotal(), 0.01);
+    }
 
 
 

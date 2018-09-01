@@ -34,7 +34,10 @@ public class Register {
     }
 
     public void scanItemByWeight(String name, double weight) {
+        Item item = mPriceList.getItem(name);
+        double markdown = item.getMarkdown();
         double cost = mPriceList.getItem(name).getPrice()*weight;
-        mTotal += cost;
+        double costAfterMarkdown = cost - markdown;
+        mTotal += costAfterMarkdown;
     }
 }
