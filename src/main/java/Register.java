@@ -14,8 +14,8 @@ public class Register {
         return mTotal;
     }
 
-    public void addNewItemToPriceList(String name, double price) {
-        mPriceList.addItem(name, price);
+    public void addNewItemToPriceList(String name, double price, double markdown) {
+        mPriceList.addItem(name, price, markdown);
     }
 
     public int getPriceListSize() {

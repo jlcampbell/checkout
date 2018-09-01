@@ -12,20 +12,20 @@ public class Tests {
     @Test
     public void whenOneItemAddedToRegisterPriceListSizeIs1(){
         Register register = new Register();
-        register.addNewItemToPriceList("banana",1);
+        register.addNewItemToPriceList("banana",1, 0);
         assertEquals(1, register.getPriceListSize());
     }
     @Test
     public void whenAOneDollarItemScannedTotalReturns1(){
         Register register = new Register();
-        register.addNewItemToPriceList("banana",1);
+        register.addNewItemToPriceList("banana",1, 0);
         register.scanItem("banana");
         assertEquals(1, register.getTotal());
     }
     @Test
     public void whenItemWithWeightIsScannedTotalIsIncreasedByWeight(){
         Register register = new Register();
-        register.addNewItemToPriceList("banana", 1);
+        register.addNewItemToPriceList("banana", 1, 0);
         register.scanItemByWeight("banana", 3);
         assertEquals(3, register.getTotal());
     }
@@ -39,14 +39,14 @@ public class Tests {
     @Test
     public void whenOneItemIsAddedToPriceListSizeIs1(){
         PriceList priceList = new PriceList();
-        priceList.addItem("bread loaf", 0.99);
+        priceList.addItem("bread loaf", 0.99, 0);
         assertEquals(1, priceList.getNumberOfItems());
     }
     @Test
     public void whenGetItemIsCalledOnItemInPriceListItemIsReturned(){
         PriceList priceList = new PriceList();
-        priceList.addItem("bread loaf", 0.99);
-        Item temp = new Item("bread loaf", 0.99);
+        priceList.addItem("bread loaf", 0.99, 0);
+        Item temp = new Item("bread loaf", 0.99, 0);
         assertEquals(0.99, priceList.getItem("bread loaf").getPrice(), 0.01);
     }
 
@@ -54,7 +54,12 @@ public class Tests {
 //  Item object
     @Test
     public void initializeNewItemWithAPriceQueryForPriceReturnsPrice(){
-        Item orange = new Item("orange", 1.35);
+        Item orange = new Item("orange", 1.35, 0);
         assertEquals(1.35, orange.getPrice(), 0.01);
+    }
+    @Test
+    public void initializeNewItemWithMarkdown10ForMarkdownReturns10(){
+        Item orange = new Item("orange", 1.35, 0.10);
+        assertEquals(0.10, orange.getMarkdown(), 0.01);
     }
 }
