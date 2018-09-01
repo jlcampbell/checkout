@@ -2,17 +2,17 @@ import javax.swing.*;
 
 public class Register {
     private PriceList mPriceList;
+    private int mTotal;
 
     public Register(){
         mPriceList = new PriceList();
+        mTotal = 0;
     }
-
 
     //transaction
     public int getTotal(){
-        return 0;
+        return mTotal;
     }
-
 
     public void addNewItemToPriceList(String name, double price) {
         mPriceList.addItem(name, price);
@@ -20,5 +20,10 @@ public class Register {
 
     public int getPriceListSize() {
         return mPriceList.getNumberOfItems();
+    }
+
+    public void scanItem(String name) {
+        double cost = mPriceList.getItem(name).getPrice();
+        mTotal += cost;
     }
 }

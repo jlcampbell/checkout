@@ -15,6 +15,13 @@ public class Tests {
         register.addNewItemToPriceList("banana",1);
         assertEquals(1, register.getPriceListSize());
     }
+    @Test
+    public void whenAOneDollarItemScannedTotalReturns1(){
+        Register register = new Register();
+        register.addNewItemToPriceList("banana",1);
+        register.scanItem("banana");
+        assertEquals(1, register.getTotal());
+    }
 
 //  seller pricelist
     @Test
