@@ -9,10 +9,6 @@ public class Register {
         mTotal = 0;
     }
 
-    //transaction
-    public int getTotal(){
-        return mTotal;
-    }
 
     public void addNewItemToPriceList(String name, double price, double markdown) {
         mPriceList.addItem(name, price, markdown);
@@ -22,9 +18,19 @@ public class Register {
         return mPriceList.getNumberOfItems();
     }
 
+
+
+    //transaction
+    public int getTotal(){
+        return mTotal;
+    }
+
     public void scanItem(String name) {
-        double cost = mPriceList.getItem(name).getPrice();
-        mTotal += cost;
+        Item item = mPriceList.getItem(name);
+        double markdown = item.getMarkdown();
+        double cost = item.getPrice();
+        double costAfterMarkdown = cost-markdown;
+        mTotal += costAfterMarkdown;
     }
 
     public void scanItemByWeight(String name, double weight) {

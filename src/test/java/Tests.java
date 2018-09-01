@@ -29,6 +29,19 @@ public class Tests {
         register.scanItemByWeight("banana", 3);
         assertEquals(3, register.getTotal());
     }
+    //test item with markdown
+    @Test
+    public void whenMarkedDownItemScannedTotalIncreasedByPriceMinusMarkdown(){
+        Register register = new Register();
+        register.addNewItemToPriceList("banana", 2, 1);
+        register.scanItem("banana");
+        assertEquals(1, register.getTotal(), 0.01);
+    }
+    //test weighted item with markdown
+
+
+
+
 
 //  seller pricelist
     @Test
