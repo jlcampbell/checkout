@@ -3,11 +3,17 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class Tests {
-//  transactions
+//  register
     @Test
     public void whenNewRegisterIsQueriedForTotalItReturns0(){
         Register register = new Register();
         assertEquals(0, register.getTotal());
+    }
+    @Test
+    public void whenOneItemAddedToRegisterPriceListSizeIs1(){
+        Register register = new Register();
+        register.addNewItemToPriceList("banana",1);
+        assertEquals(1, register.getPriceListSize());
     }
 
 //  seller pricelist
