@@ -26,4 +26,9 @@ public class Register {
         double cost = mPriceList.getItem(name).getPrice();
         mTotal += cost;
     }
+
+    public void scanItemByWeight(String name, double weight) {
+        double cost = mPriceList.getItem(name).getPrice()*weight;
+        mTotal += cost;
+    }
 }

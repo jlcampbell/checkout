@@ -22,6 +22,13 @@ public class Tests {
         register.scanItem("banana");
         assertEquals(1, register.getTotal());
     }
+    @Test
+    public void whenItemWithWeightIsScannedTotalIsIncreasedByWeight(){
+        Register register = new Register();
+        register.addNewItemToPriceList("banana", 1);
+        register.scanItemByWeight("banana", 3);
+        assertEquals(3, register.getTotal());
+    }
 
 //  seller pricelist
     @Test
