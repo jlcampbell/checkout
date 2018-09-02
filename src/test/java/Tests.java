@@ -1,6 +1,8 @@
 import org.junit.Before;
 import org.junit.Test;
 
+import java.util.HashMap;
+
 import static org.junit.Assert.assertEquals;
 
 public class Tests {
@@ -106,4 +108,16 @@ public class Tests {
         Item orange = new Item("orange", 1.35, 0.10);
         assertEquals(0.10, orange.getMarkdown(), 0.01);
     }
+    //Req #4 buy N items get M at x% off
+    //need to be able to add specials to the item's information set in the pricelist
+    @Test
+    public void addSpecialToItemGetSpecialsReturnsThatSpecial(){
+        Item orange = new Item("orange", 1.35, 0.10);
+        orange.setSpecial(3, 1, 100);
+        HashMap<String, Integer> special = orange.getSpecial();
+        assertEquals(3, orange.getSpecial().get("N"), 0.01);
+        assertEquals(1, orange.getSpecial().get("M"), 0.01);
+        assertEquals(100, orange.getSpecial().get("percent off"), 0.01);
+    }
+
 }
