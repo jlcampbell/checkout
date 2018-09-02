@@ -1,30 +1,37 @@
+import org.junit.Before;
 import org.junit.Test;
 
 import static org.junit.Assert.assertEquals;
 
 public class Tests {
+    Register register;
+    @Before
+    public void setupRegister(){
+        register = new Register();
+    }
+
 //  register
     @Test
     public void whenNewRegisterIsQueriedForTotalItReturns0(){
-        Register register = new Register();
+        setupRegister();
         assertEquals(0, register.getTotal());
     }
     @Test
     public void whenOneItemAddedToRegisterPriceListSizeIs1(){
-        Register register = new Register();
+        setupRegister();
         register.addNewItemToPriceList("banana",1, 0);
         assertEquals(1, register.getPriceListSize());
     }
     @Test
     public void whenAOneDollarItemScannedTotalReturns1(){
-        Register register = new Register();
+        setupRegister();
         register.addNewItemToPriceList("banana",1, 0);
         register.scanItem("banana");
         assertEquals(1, register.getTotal());
     }
     @Test
     public void whenItemWithWeightIsScannedTotalIsIncreasedByWeight(){
-        Register register = new Register();
+        setupRegister();
         register.addNewItemToPriceList("banana", 1, 0);
         register.scanItemByWeight("banana", 3);
         assertEquals(3, register.getTotal());
@@ -32,7 +39,7 @@ public class Tests {
     //test item with markdown
     @Test
     public void whenMarkedDownItemScannedTotalIncreasedByPriceMinusMarkdown(){
-        Register register = new Register();
+        setupRegister();
         register.addNewItemToPriceList("banana", 2, 1);
         register.scanItem("banana");
         assertEquals(1, register.getTotal(), 0.01);
@@ -40,7 +47,7 @@ public class Tests {
     //test weighted item with markdown
     @Test
     public void whenWeighedItemMarkedDownReflectsUnitPriceMinusMarkdown(){
-        Register register = new Register();
+        setupRegister();
         register.addNewItemToPriceList("banana", 2, 1);
         register.scanItemByWeight("banana", 1.5);
         assertEquals(2, register.getTotal(), 0.01);
@@ -50,20 +57,27 @@ public class Tests {
 
 
 //  seller pricelist
+    PriceList priceList;
+
+    @Before
+    public void setupPriceList(){
+        priceList = new PriceList();
+    }
+
     @Test
     public void whenNewPriceListIsQueriedSizeIs0(){
-        PriceList priceList = new PriceList();
+        setupPriceList();
         assertEquals(0, priceList.getNumberOfItems());
     }
     @Test
     public void whenOneItemIsAddedToPriceListSizeIs1(){
-        PriceList priceList = new PriceList();
+        setupPriceList();
         priceList.addItem("bread loaf", 0.99, 0);
         assertEquals(1, priceList.getNumberOfItems());
     }
     @Test
     public void whenGetItemIsCalledOnItemInPriceListItemIsReturned(){
-        PriceList priceList = new PriceList();
+        setupPriceList();
         priceList.addItem("bread loaf", 0.99, 0);
         Item temp = new Item("bread loaf", 0.99, 0);
         assertEquals(0.99, priceList.getItem("bread loaf").getPrice(), 0.01);
