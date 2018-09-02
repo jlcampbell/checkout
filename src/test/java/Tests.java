@@ -36,7 +36,7 @@ public class Tests {
         register.scanItemByWeight("banana", 3);
         assertEquals(3, register.getTotal());
     }
-    //test item with markdown
+    //Req #3 test item with markdown
     @Test
     public void whenMarkedDownItemScannedTotalIncreasedByPriceMinusMarkdown(){
         setupRegister();
@@ -44,7 +44,7 @@ public class Tests {
         register.scanItem("banana");
         assertEquals(1, register.getTotal(), 0.01);
     }
-    //test weighted item with markdown
+    //Req #3 test weighted item with markdown
     @Test
     public void whenWeighedItemMarkedDownReflectsUnitPriceMinusMarkdown(){
         setupRegister();
@@ -52,7 +52,18 @@ public class Tests {
         register.scanItemByWeight("banana", 1.5);
         assertEquals(2, register.getTotal(), 0.01);
     }
-
+    //Req #4 buy N items get M at x% off
+    //Assuming this means N and M items are all multiples of the same item
+    //Need to keep track of the number of each item added
+    @Test
+    public void whenAppleAddedThreeTimesAppleTotalIs3(){
+        setupRegister();
+        register.addNewItemToPriceList("apple", 0.50, 0);
+        register.scanItem("apple");
+        register.scanItem("apple");
+        register.scanItem("apple");
+        assertEquals(3, register.getTotalByName("apple"));
+    }
 
 
 
