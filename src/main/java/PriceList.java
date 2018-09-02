@@ -1,6 +1,7 @@
 import org.json.simple.JSONObject;
 
 import java.util.HashMap;
+import java.util.List;
 
 public class PriceList {
     private HashMap<String, Item> mItems;
@@ -20,5 +21,16 @@ public class PriceList {
 
     public Item getItem(String name) {
         return mItems.get(name);
+    }
+//TODO consider refactor so pricelist only contains CRUD for item
+    public void setSpecial(String name, int n, int m, int percentOffM) {
+        Item item = getItem(name);
+        item.setSpecial(n, m, percentOffM);
+        mItems.put(name, item);
+    }
+
+    public HashMap<String, Integer> getSpecial(String name) {
+        Item item = getItem(name);
+        return item.getSpecial();
     }
 }

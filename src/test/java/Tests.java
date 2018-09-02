@@ -68,7 +68,6 @@ public class Tests {
     }
 
 
-
 //  seller pricelist
     PriceList priceList;
 
@@ -95,6 +94,21 @@ public class Tests {
         Item temp = new Item("bread loaf", 0.99, 0);
         assertEquals(0.99, priceList.getItem("bread loaf").getPrice(), 0.01);
     }
+    //Req #4 buy N items get M at x% off
+    //Need to be able to set a special in the pricelist and then retrieve it
+    @Test
+    public void addSpecialToItemGetSpecialsReturnsThatSpecial(){
+        setupPriceList();
+        priceList.addItem("bread loaf", 0.99, 0);
+        priceList.setSpecial("bread loaf", 3, 1, 100);
+        int actual1 = priceList.getSpecial("bread loaf").get("N");
+        int actual2 = priceList.getSpecial("bread loaf").get("M");
+        int actual3 = priceList.getSpecial("bread loaf").get("percent off");
+        assertEquals(3, actual1, 0.1);
+        assertEquals(1, actual2, 0.1);
+        assertEquals(100, actual3, 0.1);
+
+    }
 
 
 //  Item object
@@ -111,10 +125,9 @@ public class Tests {
     //Req #4 buy N items get M at x% off
     //need to be able to add specials to the item's information set in the pricelist
     @Test
-    public void addSpecialToItemGetSpecialsReturnsThatSpecial(){
+    public void addSpecialToPriceListItemGetSpecialsReturnsThatSpecial(){
         Item orange = new Item("orange", 1.35, 0.10);
         orange.setSpecial(3, 1, 100);
-        HashMap<String, Integer> special = orange.getSpecial();
         assertEquals(3, orange.getSpecial().get("N"), 0.01);
         assertEquals(1, orange.getSpecial().get("M"), 0.01);
         assertEquals(100, orange.getSpecial().get("percent off"), 0.01);
