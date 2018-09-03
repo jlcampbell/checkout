@@ -3,15 +3,30 @@ import java.util.HashMap;
 
 public class Register {
     private PriceList mPriceList;
-    private int mTotal;
-    private HashMap<String, Integer> mItemTotals;
+    private Transaction mTransaction;
 
     public Register(){
         mPriceList = new PriceList();
-        mTotal = 0;
-        mItemTotals = new HashMap<String, Integer>();
     }
 
+    public void startTransaction(){
+        mTransaction = new Transaction(mPriceList);
+    }
+
+    public void scanItem(String name){
+        mTransaction.scanItem(name);
+    }
+    //TODO combine scan methods
+    public void scanItemByWeight(String name, Double weight){
+        mTransaction.scanItemByWeight(name, weight);
+    }
+    public double getTotal(){
+        return mTransaction.getTotal();
+    }
+    //TODO getTotalByName in register for testing
+    public int getTotalByName(String name){
+        return mTransaction.getTotalByName(name);
+    }
 
     public void addNewItemToPriceList(String name, double price, double markdown) {
         mPriceList.addItem(name, price, markdown);
@@ -19,40 +34,5 @@ public class Register {
 
     public int getPriceListSize() {
         return mPriceList.getNumberOfItems();
-    }
-
-    //transaction
-    public int getTotal(){
-        return mTotal;
-    }
-
-    public void scanItem(String name) {
-        Item item = mPriceList.getItem(name);
-        double markdown = item.getMarkdown();
-        double cost = item.getPrice();
-        double costAfterMarkdown = cost-markdown;
-        mTotal += costAfterMarkdown;
-        addItemToItemTotals(name);
-    }
-
-    private void addItemToItemTotals(String name){
-        if (mItemTotals.containsKey(name)){
-            int value = mItemTotals.get(name);
-            mItemTotals.put(name, value+1);
-        } else {
-            mItemTotals.put(name, 1);
-        }
-    }
-
-    public void scanItemByWeight(String name, double weight) {
-        Item item = mPriceList.getItem(name);
-        double markdown = item.getMarkdown();
-        double cost = mPriceList.getItem(name).getPrice()*weight;
-        double costAfterMarkdown = cost - markdown;
-        mTotal += costAfterMarkdown;
-    }
-
-    public int getTotalByName(String name) {
-        return mItemTotals.get(name);
     }
 }
