@@ -160,5 +160,13 @@ public class Tests {
         assertEquals(1, orange.getSpecial().get("M"), 0.01);
         assertEquals(100, orange.getSpecial().get("percent off"), 0.01);
     }
+    //Req #5 support special X for $Y
+    @Test
+    public void addXForYdollarsSpecialReturnSpecial(){
+        Item orange = new Item("orange", 1.35, 0.10);
+        orange.setXForYDollarsSpecial(5, 5);
+        assertEquals(5, orange.getXForYSpecial().get("X"), 0.1);
+        assertEquals(5, orange.getXForYSpecial().get("YDollars"), 0.1);
+    }
 
 }
