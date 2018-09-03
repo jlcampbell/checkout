@@ -135,11 +135,22 @@ public class Tests {
         assertEquals(3, actual1, 0.1);
         assertEquals(1, actual2, 0.1);
         assertEquals(100, actual3, 0.1);
-
+    }
+    //Req #5 X for Y dollars
+    //Need to be able to set a special in the pricelist and then retrieve it
+    @Test
+    public void addXForYSpecialToPriceListAndReturnIt(){
+        setupPriceList();
+        priceList.addItem("bread loaf", 0.99, 0);
+        priceList.setXForYSpecial("bread loaf", 3, 5);
+        int actual1 = priceList.getXForYSpecial("bread loaf").get("X");
+        int actual2 = priceList.getXForYSpecial("bread loaf").get("YDollars");
+        assertEquals(3, actual1, 0.1);
+        assertEquals(5, actual2, 0.1);
     }
 
 
-//  Item object
+    //  Item object
     @Test
     public void initializeNewItemWithAPriceQueryForPriceReturnsPrice(){
         Item orange = new Item("orange", 1.35, 0);
@@ -168,5 +179,17 @@ public class Tests {
         assertEquals(5, orange.getXForYSpecial().get("X"), 0.1);
         assertEquals(5, orange.getXForYSpecial().get("YDollars"), 0.1);
     }
+
+    @Test
+    public void addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial(){
+        Item orange = new Item("orange", 1.35, 0.10);
+        orange.setBuyKGetJEqualOrLessXOffSpecial(5, 3, 50);
+        assertEquals(5, orange.getBuyKGetJEqualOrLessXOffSpecial().get("K"), 0.1);
+        assertEquals(3, orange.getBuyKGetJEqualOrLessXOffSpecial().get("J"), 0.1);
+        assertEquals(50, orange.getBuyKGetJEqualOrLessXOffSpecial().get("percentOffLesserValue"), 0.1);
+
+
+    }
+
 
 }

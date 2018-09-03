@@ -6,6 +6,8 @@ public class Item {
     private double mMarkdown;
     private HashMap<String, Integer> mSpecial;
     private HashMap<String, Integer> mXForYSpecial;
+    private HashMap<String, Integer> mBuyKGetJLesserForPercentOff;
+
 
     public Item(String name, double price, double markdown){
         mName = name;
@@ -39,5 +41,15 @@ public class Item {
 
     public HashMap<String, Integer> getXForYSpecial(){
         return mXForYSpecial;
+    }
+
+    public void setBuyKGetJEqualOrLessXOffSpecial(int k, int j, int percentOffLesserValue) {
+        mBuyKGetJLesserForPercentOff = new HashMap<>();
+        mBuyKGetJLesserForPercentOff.put("K", k);
+        mBuyKGetJLesserForPercentOff.put("J", j);
+        mBuyKGetJLesserForPercentOff.put("percentOffLesserValue", percentOffLesserValue);
+    }
+    public HashMap<String, Integer> getBuyKGetJEqualOrLessXOffSpecial(){
+        return mBuyKGetJLesserForPercentOff;
     }
 }

@@ -33,4 +33,15 @@ public class PriceList {
         Item item = getItem(name);
         return item.getSpecial();
     }
+
+    public void setXForYSpecial(String name, int x, int y) {
+        Item item = getItem(name);
+        item.setXForYDollarsSpecial(x, y);
+        mItems.put(name, item);
+    }
+
+    public HashMap<String, Integer> getXForYSpecial(String name) {
+        return getItem(name).getXForYSpecial();
+    }
+
 }
