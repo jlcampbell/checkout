@@ -149,6 +149,23 @@ public class Tests {
         assertEquals(5, actual2, 0.1);
     }
 
+    //Req #8 Buy K get J equal or less value for I percent off (weighted items)
+    @Test
+    public void addKJISpecialAndReturnIt(){
+        setupPriceList();
+        priceList.addItem("bread loaf", 0.99, 0);
+        priceList.setBuyKGetJEqualorLessForXOffSpecial("bread loaf", 3, 1, 50);
+        int actual1 = priceList.getKJXSpecial("bread loaf").get("K");
+        int actual2 = priceList.getKJXSpecial("bread loaf").get("J");
+        int actual3 = priceList.getKJXSpecial("bread loaf").get("percentOffLesserValue");
+        assertEquals(3, actual1, 0.1);
+        assertEquals(1, actual2, 0.1);
+        assertEquals(50, actual3, 0.1);
+
+
+
+    }
+
 
     //  Item object
     @Test

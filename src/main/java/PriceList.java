@@ -44,4 +44,14 @@ public class PriceList {
         return getItem(name).getXForYSpecial();
     }
 
+    public void setBuyKGetJEqualorLessForXOffSpecial(String name, int k, int j, int x) {
+        Item item = getItem(name);
+        item.setBuyKGetJEqualOrLessXOffSpecial(k, j, x);
+        mItems.put(name, item);
+    }
+
+    public HashMap<String, Integer> getKJXSpecial(String name) {
+        return getItem(name).getBuyKGetJEqualOrLessXOffSpecial();
+    }
+
 }

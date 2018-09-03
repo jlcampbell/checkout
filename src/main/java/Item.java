@@ -52,4 +52,5 @@ public class Item {
     public HashMap<String, Integer> getBuyKGetJEqualOrLessXOffSpecial(){
         return mBuyKGetJLesserForPercentOff;
     }
+
 }
