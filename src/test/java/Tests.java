@@ -66,6 +66,17 @@ public class Tests {
         register.scanItem("apple");
         assertEquals(3, register.getTotalByName("apple"));
     }
+    //Req #4 buy N items get M at x% off
+    //Need to be able to add a special from the register
+
+    //Req #4 buy N items get M at x% off
+    //Special should be applied when 3 items are bought
+
+    //Req #4 buy N items get M at x% off
+    //Special should not be applied when too few items bought
+
+    //Req #4 buy N items get M at x% off
+    //Special should be applied also when 6 items are bought
 
 
 //  seller pricelist
