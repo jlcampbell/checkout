@@ -161,11 +161,7 @@ public class Tests {
         assertEquals(3, actual1, 0.1);
         assertEquals(1, actual2, 0.1);
         assertEquals(50, actual3, 0.1);
-
-
-
     }
-
 
     //  Item object
     @Test
