@@ -18,6 +18,12 @@ public class TransactionTests {
         setupTransaction();
         assertEquals(0, transaction.getTotal());
     }
+    @Test
+    public void scan1DollarItemTotalIncreasesBy1(){
+        setupTransaction();
+        transaction.scanItem("bread loaf");
+        assertEquals(1, transaction.getTotal());
+    }
 
 
 
