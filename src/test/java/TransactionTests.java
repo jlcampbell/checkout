@@ -31,6 +31,13 @@ public class TransactionTests {
         transaction.scanItemByWeight("banana", 2);
         assertEquals(1, transaction.getTotal(), 0.1);
     }
+    @Test
+    public void twoTwoPoundBananasTotal2Dollars(){
+        setupTransaction();
+        transaction.scanItemByWeight("banana", 2);
+        transaction.scanItemByWeight("banana", 2);
+        assertEquals(2, transaction.getTotal(), 0.1);
+    }
 
 
 
