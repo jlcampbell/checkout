@@ -24,6 +24,13 @@ public class TransactionTests {
         transaction.scanItem("bread loaf");
         assertEquals(1, transaction.getTotal());
     }
+    @Test
+    //price is 50c so 2x.5 = 1
+    public void scanItemByWeightIncreasesTotalByWeightxPrice(){
+        setupTransaction();
+        transaction.scanItemByWeight("banana", 2);
+        assertEquals(1, transaction.getTotal(), 0.1);
+    }
 
 
 
