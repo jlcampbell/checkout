@@ -16,13 +16,13 @@ public class TransactionTests {
     @Test
     public void newTransactionTotalReturns0(){
         setupTransaction();
-        assertEquals(0, transaction.getTotal());
+        assertEquals(0, transaction.getTotal(), 0.01);
     }
     @Test
     public void scan1DollarItemTotalIncreasesBy1(){
         setupTransaction();
         transaction.scanItem("bread loaf");
-        assertEquals(1, transaction.getTotal());
+        assertEquals(1, transaction.getTotal(), 0.01);
     }
     @Test
     //price is 50c so 2x.5 = 1
@@ -38,8 +38,29 @@ public class TransactionTests {
         transaction.scanItemByWeight("banana", 2);
         assertEquals(2, transaction.getTotal(), 0.1);
     }
-
-
+    @Test
+    public void twoTwoPoundBananasAndBreadLoafReturn3(){
+        setupTransaction();
+        transaction.scanItem("bread loaf");
+        transaction.scanItemByWeight("banana", 2);
+        transaction.scanItemByWeight("banana", 2);
+        assertEquals(3, transaction.getTotal(), 0.1);
+    }
+    @Test
+    public void two1PoundBananasReturn1(){
+        setupTransaction();
+        transaction.scanItemByWeight("banana", 1);
+        transaction.scanItemByWeight("banana", 1);
+        assertEquals(1, transaction.getTotal(), 0.1);
+    }
+    @Test
+    public void two1PoundBananasAndBreadLoafReturn2(){
+        setupTransaction();
+        transaction.scanItem("bread loaf");
+        transaction.scanItemByWeight("banana", 1);
+        transaction.scanItemByWeight("banana", 1);
+        assertEquals(2, transaction.getTotal(), 0.1);
+    }
 
 
 

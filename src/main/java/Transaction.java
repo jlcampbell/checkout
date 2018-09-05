@@ -1,7 +1,7 @@
 import java.util.HashMap;
 
 public class Transaction {
-    private int mTotal;
+    private double mTotal;
     private HashMap<String, Integer> mItemTotals;
     private PriceList mPriceList;
 
@@ -11,7 +11,7 @@ public class Transaction {
         mPriceList = priceList;
     }
 
-    public int getTotal(){
+    public double getTotal(){
         return mTotal;
     }
 

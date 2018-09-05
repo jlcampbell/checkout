@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TransactionTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-09-05T01:15:36" hostname="Jessicas-MacBook-Pro.local" time="0.0">
+<testsuite name="TransactionTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-09-05T01:43:51" hostname="Jessicas-MacBook-Pro.local" time="0.003">
   <properties/>
-  <testcase name="scan1DollarItemTotalIncreasesBy1" classname="TransactionTests" time="0.0"/>
+  <testcase name="scan1DollarItemTotalIncreasesBy1" classname="TransactionTests" time="0.001"/>
+  <testcase name="twoTwoPoundBananasTotal2Dollars" classname="TransactionTests" time="0.0"/>
+  <testcase name="two1PoundBananasAndBreadLoafReturn2" classname="TransactionTests" time="0.0"/>
   <testcase name="scanItemByWeightIncreasesTotalByWeightxPrice" classname="TransactionTests" time="0.0"/>
   <testcase name="newTransactionTotalReturns0" classname="TransactionTests" time="0.0"/>
+  <testcase name="two1PoundBananasReturn1" classname="TransactionTests" time="0.0"/>
+  <testcase name="twoTwoPoundBananasAndBreadLoafReturn3" classname="TransactionTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
