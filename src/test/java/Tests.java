@@ -13,6 +13,8 @@ public class Tests {
         register.startTransaction();
     }
 
+
+
 //  register
 
 //  register should be able to start a new transaction
@@ -76,6 +78,7 @@ public class Tests {
     }
     //Req #4 buy N items get M at x% off
     //Need to be able to add a special from the register
+
 
     //Req #4 buy N items get M at x% off
     //Special should be applied when 3 items are bought
