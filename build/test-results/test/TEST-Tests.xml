@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="18" skipped="0" failures="0" errors="0" timestamp="2018-09-05T01:43:51" hostname="Jessicas-MacBook-Pro.local" time="0.005">
+<testsuite name="Tests" tests="18" skipped="0" failures="0" errors="0" timestamp="2018-09-09T20:09:25" hostname="Jessicas-MacBook-Pro.local" time="0.004">
   <properties/>
   <testcase name="addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial" classname="Tests" time="0.0"/>
   <testcase name="addXForYdollarsSpecialReturnSpecial" classname="Tests" time="0.0"/>
@@ -9,12 +9,12 @@
   <testcase name="addSpecialToItemGetSpecialsReturnsThatSpecial" classname="Tests" time="0.0"/>
   <testcase name="addSpecialToPriceListItemGetSpecialsReturnsThatSpecial" classname="Tests" time="0.0"/>
   <testcase name="addXForYSpecialToPriceListAndReturnIt" classname="Tests" time="0.0"/>
-  <testcase name="whenItemWithWeightIsScannedTotalIsIncreasedByWeight" classname="Tests" time="0.001"/>
+  <testcase name="whenItemWithWeightIsScannedTotalIsIncreasedByWeight" classname="Tests" time="0.0"/>
   <testcase name="whenNewPriceListIsQueriedSizeIs0" classname="Tests" time="0.0"/>
   <testcase name="whenAOneDollarItemScannedTotalReturns1" classname="Tests" time="0.0"/>
-  <testcase name="initializeNewItemWithMarkdown10ForMarkdownReturns10" classname="Tests" time="0.001"/>
+  <testcase name="initializeNewItemWithMarkdown10ForMarkdownReturns10" classname="Tests" time="0.0"/>
   <testcase name="whenGetItemIsCalledOnItemInPriceListItemIsReturned" classname="Tests" time="0.0"/>
-  <testcase name="whenOneItemIsAddedToPriceListSizeIs1" classname="Tests" time="0.0"/>
+  <testcase name="whenOneItemIsAddedToPriceListSizeIs1" classname="Tests" time="0.001"/>
   <testcase name="initializeNewItemWithAPriceQueryForPriceReturnsPrice" classname="Tests" time="0.0"/>
   <testcase name="whenMarkedDownItemScannedTotalIncreasedByPriceMinusMarkdown" classname="Tests" time="0.001"/>
   <testcase name="whenWeighedItemMarkedDownReflectsUnitPriceMinusMarkdown" classname="Tests" time="0.0"/>

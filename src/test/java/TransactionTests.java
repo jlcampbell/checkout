@@ -62,6 +62,29 @@ public class TransactionTests {
         assertEquals(2, transaction.getTotal(), 0.1);
     }
 
+    //applying specials
+    //special should be applied to total as soon as the minimum requirements are met
+    @Before
+    public void setupSpecial(){
+        priceList = new PriceList();
+        priceList.addItem("bread loaf", 1, 0);
+        priceList.addItem("banana", 1, 0);
+        priceList.setSpecial("bread loaf", 1,2,100);
+        transaction = new Transaction(priceList);
+    }
+
+    @Test
+    public void afterNItemIsScannedSpecialIsApplied(){
+        setupSpecial();
+        transaction.scanItem("bread loaf");
+        transaction.scanItem("bread loaf");
+        transaction.scanItem("bread loaf");
+        assertEquals(1, transaction.getTotal(), 0.1);
+    }
+
+
+
+
 
 
 

@@ -15,11 +15,21 @@ public class Transaction {
         return mTotal;
     }
 
+
+
     public void scanItem(String name) {
+        //get pricing
         Item item = mPriceList.getItem(name);
         double markdown = item.getMarkdown();
         double cost = item.getPrice();
+        //calculate price after markdown
         double costAfterMarkdown = cost-markdown;
+        //get specials from price list
+        HashMap<String, Integer> special = mPriceList.getSpecial(name);
+        //calculate new prices
+
+        //update special prices
+        //update total based on specials
         mTotal += costAfterMarkdown;
         addItemToItemTotals(name);
     }
