@@ -23,6 +23,15 @@ public class ItemOnReceiptXforYTests {
         breadForThisOrder.addItem();
         assertEquals(2,breadForThisOrder.getTotal(), 0.01);
     }
+    @Test
+    public void buyFourAtTwoForOneReturn2dollars(){
+        setup();
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        assertEquals(2, breadForThisOrder.getTotal(), 0.01);
+    }
 
 
 
