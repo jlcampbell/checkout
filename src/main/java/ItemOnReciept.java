@@ -6,7 +6,6 @@ import java.util.List;
 //keep track of how many of this type of item we have for specials
 //calculate and apply specials price
 public class ItemOnReciept {
-    private String mName;
     private Double mOriginalPrice;
     private Double mMarkdown;
     private HashMap<String, Integer> mSpecial;
