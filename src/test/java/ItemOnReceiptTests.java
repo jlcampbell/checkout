@@ -28,4 +28,13 @@ public class ItemOnReceiptTests {
         int quantityDiscounted = breadForThisOrder.getQuantityDiscounted();
         assertEquals(0, quantityDiscounted, 0.1);
     }
+    @Test
+    public void getTotalReturnsDiscount(){
+        setup();
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        int expected = 2;
+        assertEquals(expected, breadForThisOrder.getTotal(), 0.01);
+    }
 }

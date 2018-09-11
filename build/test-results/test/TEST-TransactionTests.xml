@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TransactionTests" tests="8" skipped="0" failures="1" errors="0" timestamp="2018-09-10T01:32:39" hostname="Jessicas-MacBook-Pro.local" time="0.006">
+<testsuite name="TransactionTests" tests="8" skipped="0" failures="1" errors="0" timestamp="2018-09-11T01:00:28" hostname="Jessicas-MacBook-Pro.local" time="0.006">
   <properties/>
-  <testcase name="scan1DollarItemTotalIncreasesBy1" classname="TransactionTests" time="0.002"/>
+  <testcase name="scan1DollarItemTotalIncreasesBy1" classname="TransactionTests" time="0.001"/>
   <testcase name="twoTwoPoundBananasTotal2Dollars" classname="TransactionTests" time="0.0"/>
   <testcase name="two1PoundBananasAndBreadLoafReturn2" classname="TransactionTests" time="0.0"/>
   <testcase name="scanItemByWeightIncreasesTotalByWeightxPrice" classname="TransactionTests" time="0.0"/>

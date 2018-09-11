@@ -11,12 +11,17 @@ public class ItemOnReciept {
     private Double mMarkdown;
     private HashMap<String, Integer> mSpecial;
     int mQuantity;
+    Item mItem;
 
     public ItemOnReciept(Item item){
+        mItem = item;
         mOriginalPrice = item.getPrice();
         mMarkdown = item.getMarkdown();
         mSpecial = item.getSpecial();
         mQuantity = 0;
+    }
+    public void addItem(){
+       mQuantity += 1;
     }
     public int getQuantityDiscounted(){
         int quantityDiscounted;
@@ -26,6 +31,11 @@ public class ItemOnReciept {
             quantityDiscounted = 0;
         }
         return quantityDiscounted;
+    }
+    public double getTotal(){
+        int quantityNotDiscounted = mQuantity - getQuantityDiscounted();
+        double total = quantityNotDiscounted*(mOriginalPrice-mMarkdown)+getQuantityDiscounted()*calculateSpecialPrice();
+        return total;
     }
 
 
