@@ -23,18 +23,42 @@ public class ItemOnReciept {
     public void addItem(){
        mQuantity += 1;
     }
-    public int getQuantityDiscounted(){
-        int quantityDiscounted;
-        if (mQuantity>mSpecial.get("N")){
-            quantityDiscounted = mQuantity-mSpecial.get("N");
-        }else{
-            quantityDiscounted = 0;
+//    public int getQuantityDiscounted(){
+//        int quantityToBePurchasedToApplySpecial = mSpecial.get("N");
+//        int quantityToBeGottenAtDiscount = mSpecial.get("M");
+//        int specialGroup = quantityToBePurchasedToApplySpecial+ quantityToBeGottenAtDiscount;
+//        int quantityDiscounted;
+//        if (mQuantity>mSpecial.get("N")){
+//            quantityDiscounted = mQuantity-mSpecial.get("N");
+//        }else{
+//            quantityDiscounted = 0;
+//        }
+//        return quantityDiscounted;
+//    }
+    public double[] getPriceArray(){
+        int quantityToBePurchasedToApplySpecial = mSpecial.get("N");
+        int quantityToBeGottenAtDiscount = mSpecial.get("M");
+        int counter = 0;
+        double[] priceArray = new double[mQuantity];
+        for (int i = 0; i<mQuantity; i++){
+            if (counter==quantityToBeGottenAtDiscount+quantityToBePurchasedToApplySpecial){
+                counter=0;
+            }
+            if (counter<quantityToBePurchasedToApplySpecial){
+                priceArray[i]=mOriginalPrice-mMarkdown;
+            }else{
+                priceArray[i]=calculateSpecialPrice();
+            }
+            counter += 1;
         }
-        return quantityDiscounted;
+        return priceArray;
     }
     public double getTotal(){
-        int quantityNotDiscounted = mQuantity - getQuantityDiscounted();
-        double total = quantityNotDiscounted*(mOriginalPrice-mMarkdown)+getQuantityDiscounted()*calculateSpecialPrice();
+        double total=0;
+        double[] priceArray=getPriceArray();
+        for (double i:priceArray){
+            total+=i;
+        }
         return total;
     }
 

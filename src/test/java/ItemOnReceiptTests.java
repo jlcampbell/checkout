@@ -22,19 +22,27 @@ public class ItemOnReceiptTests {
         double specialPrice = breadForThisOrder.calculateSpecialPrice();
         assertEquals(0.50, specialPrice, 0.01);
     }
+//    @Test
+//    public void getQuantityDiscountedWhenYouBuy1(){
+//        setup();
+//        int quantityDiscounted = breadForThisOrder.getQuantityDiscounted();
+//        assertEquals(0, quantityDiscounted, 0.1);
+//    }
     @Test
-    public void getQuantityDiscountedWhenYouBuy1(){
+    public void BOGO50AppliedtoOneItemOutOfTwo(){
         setup();
-        int quantityDiscounted = breadForThisOrder.getQuantityDiscounted();
-        assertEquals(0, quantityDiscounted, 0.1);
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        double expected = 1.5;
+        assertEquals(expected, breadForThisOrder.getTotal(), 0.01);
     }
     @Test
-    public void getTotalReturnsDiscount(){
+    public void BOGO50AppliedtoOneItemOutOfThree(){
         setup();
         breadForThisOrder.addItem();
         breadForThisOrder.addItem();
         breadForThisOrder.addItem();
-        int expected = 2;
+        double expected = 2.5;
         assertEquals(expected, breadForThisOrder.getTotal(), 0.01);
     }
 }
