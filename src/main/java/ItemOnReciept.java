@@ -22,18 +22,7 @@ public class ItemOnReciept {
     public void addItem(){
        mQuantity += 1;
     }
-//    public int getQuantityDiscounted(){
-//        int quantityToBePurchasedToApplySpecial = mSpecial.get("N");
-//        int quantityToBeGottenAtDiscount = mSpecial.get("M");
-//        int specialGroup = quantityToBePurchasedToApplySpecial+ quantityToBeGottenAtDiscount;
-//        int quantityDiscounted;
-//        if (mQuantity>mSpecial.get("N")){
-//            quantityDiscounted = mQuantity-mSpecial.get("N");
-//        }else{
-//            quantityDiscounted = 0;
-//        }
-//        return quantityDiscounted;
-//    }
+
     public double[] getPriceArray(){
         int quantityToBePurchasedToApplySpecial = mSpecial.get("N");
         int quantityToBeGottenAtDiscount = mSpecial.get("M");
@@ -60,8 +49,6 @@ public class ItemOnReciept {
         }
         return total;
     }
-
-
 
     public double calculateSpecialPrice(){
         double priceAfterMarkdown = mOriginalPrice - mMarkdown;
