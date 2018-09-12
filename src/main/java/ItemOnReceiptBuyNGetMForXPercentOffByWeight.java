@@ -9,12 +9,16 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
     private HashMap<String, Integer> mSpecial;
     ArrayList<Double> mWeights;
     Item mItem;
+    private int mNumberYouMustBuy;
+    private int mNumberYouGetAtSpecial;
+    private int mPercentOff;
 
     public ItemOnReceiptBuyNGetMForXPercentOffByWeight(Item item){
         mItem = item;
         mOriginalPrice = item.getPrice();
         mMarkdown = item.getMarkdown();
         mSpecial = item.getBuyKGetJEqualOrLessXOffSpecial();
+
         mWeights = new ArrayList<>();
     }
     public void addItem(Double weight){
@@ -25,8 +29,9 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
         return mWeights.size();
     }
 
-    public double getSpecialPrice(double weight, double markdown, double originalPrice, int percentOff) {
-        return (weight*originalPrice-markdown)*percentOff/100;
+    public double getSpecialPrice(double weight) {
+        mPercentOff = mSpecial.get("percentOffLesserValue");
+        return getOriginalPriceMinusMarkdown(weight)*mPercentOff/100;
     }
 
     public double getOriginalPriceMinusMarkdown(double weight) {
@@ -34,9 +39,22 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
     }
 
     public double getTotalPrice() {
+        mNumberYouMustBuy = mSpecial.get("K");
+        mNumberYouGetAtSpecial = mSpecial.get("J");
+
+
         double total = 0;
+        int count = 0;
+        //order each price group
+        //from each set the lowest ones get the special
         for (double weight : mWeights){
-            total += getOriginalPriceMinusMarkdown(weight);
+            if (count < mNumberYouMustBuy ){
+                total += getOriginalPriceMinusMarkdown(weight);
+                count += 1;
+            } else if (count >= mNumberYouMustBuy){
+                total += getSpecialPrice(weight);
+                count += 1;
+            }
         }
         return total;
     }

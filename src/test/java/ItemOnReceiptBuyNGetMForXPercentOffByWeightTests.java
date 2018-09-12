@@ -27,7 +27,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
         public void calculateSpecialPriceOf1lbItemAt1DollarPerPoundAt50percentOff(){
             setup();
             breadForThisOrder.addItem(1.0);
-            double actual = breadForThisOrder.getSpecialPrice(1.0, bread.getMarkdown(), bread.getPrice(), bread.getBuyKGetJEqualOrLessXOffSpecial().get("percentOffLesserValue"));
+            double actual = breadForThisOrder.getSpecialPrice(1.0);
             double expected = 1*.5;
             assertEquals(expected, actual, 0.01);
         }
@@ -73,8 +73,16 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             double expected = (1.0*2.0)-0.50+(1*1)-0.50;
             assertEquals(expected, actual, 0.01);
         }
+        @Test
         public void getTotalOfThreeItemsWhereSpecialIsAppliedToOne(){
-
+            setupWithMarkdownAndSpecial();
+            breadForThisOrder.addItem(2.0);
+            breadForThisOrder.addItem(1.0);
+            breadForThisOrder.addItem(1.0);
+            double actual = breadForThisOrder.getTotalPrice();
+            double expected = (1.0*2.0)-0.50+(1*1)-0.50+((1*1)-0.50)*0.50;
+            assertEquals(expected, actual, 0.01);
         }
+
     }
 

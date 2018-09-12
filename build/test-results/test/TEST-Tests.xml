@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="18" skipped="0" failures="0" errors="0" timestamp="2018-09-12T02:30:46" hostname="Jessicas-MacBook-Pro.local" time="0.006">
+<testsuite name="Tests" tests="18" skipped="0" failures="0" errors="0" timestamp="2018-09-12T20:17:42" hostname="Jessicas-MacBook-Pro.local" time="0.005">
   <properties/>
-  <testcase name="addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial" classname="Tests" time="0.001"/>
+  <testcase name="addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial" classname="Tests" time="0.0"/>
   <testcase name="addXForYdollarsSpecialReturnSpecial" classname="Tests" time="0.0"/>
   <testcase name="whenOneItemAddedToRegisterPriceListSizeIs1" classname="Tests" time="0.0"/>
   <testcase name="whenNewRegisterIsQueriedForTotalItReturns0" classname="Tests" time="0.0"/>
