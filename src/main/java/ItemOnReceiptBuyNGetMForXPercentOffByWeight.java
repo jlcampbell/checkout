@@ -1,6 +1,7 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+//Support "Buy N, get M of equal or lesser value for %X off" on weighted items
 public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
 
     private Double mOriginalPrice;
@@ -28,9 +29,8 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
         return (weight*originalPrice-markdown)*percentOff/100;
     }
 
-
-    public double getOriginalPriceMinusMarkdown() {
-        return mOriginalPrice-mMarkdown;
+    public double getOriginalPriceMinusMarkdown(double weight) {
+        return (mOriginalPrice-mMarkdown)*weight;
     }
 }
 

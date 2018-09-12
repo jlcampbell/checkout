@@ -39,8 +39,9 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
         @Test
         public void calculatePriceAfterMarkdownReturnsOriginalPriceMinusMarkdown(){
             setupWithMarkdown();
-            double actual = breadForThisOrder.getOriginalPriceMinusMarkdown();
-            double expected = 1-0.50;
+            breadForThisOrder.addItem(2.0);
+            double actual = breadForThisOrder.getOriginalPriceMinusMarkdown(2);
+            double expected = (1-0.50)*2;
             assertEquals(actual, expected, 0.01);
         }
     }
