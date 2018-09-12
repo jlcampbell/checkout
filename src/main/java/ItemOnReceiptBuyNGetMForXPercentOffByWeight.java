@@ -28,6 +28,10 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
         return (weight*originalPrice-markdown)*percentOff/100;
     }
 
+
+    public double getOriginalPriceMinusMarkdown() {
+        return mOriginalPrice-mMarkdown;
+    }
 }
 
 
