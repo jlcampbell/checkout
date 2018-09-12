@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ItemOnReceiptXforYTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-09-12T01:34:59" hostname="Jessicas-MacBook-Pro.local" time="0.0">
+<testsuite name="ItemOnReceiptXforYTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-09-12T02:27:49" hostname="Jessicas-MacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="buyFourAtTwoForOneReturn2dollars" classname="ItemOnReceiptXforYTests" time="0.0"/>
+  <testcase name="buyFourAtTwoForOneReturn2dollars" classname="ItemOnReceiptXforYTests" time="0.001"/>
   <testcase name="buyThreeAtTwoForOneReturn2dollars" classname="ItemOnReceiptXforYTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
