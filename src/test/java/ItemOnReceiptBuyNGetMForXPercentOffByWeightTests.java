@@ -63,5 +63,18 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             double expected = (1.0*2.0)-0.50;
             assertEquals(expected, actual, 0.01);
         }
+        @Test
+        public void getTotalOfTwoItemsDoesntMeetSpecialReturnsPriceMinusMarkdownOfItems(){
+            setupWithMarkdownAndSpecial();
+            breadForThisOrder.addItem(2.0);
+            //price should be 1.50
+            breadForThisOrder.addItem(1.0);
+            double actual = breadForThisOrder.getTotalPrice();
+            double expected = (1.0*2.0)-0.50+(1*1)-0.50;
+            assertEquals(expected, actual, 0.01);
+        }
+        public void getTotalOfThreeItemsWhereSpecialIsAppliedToOne(){
+
+        }
     }
 
