@@ -146,8 +146,8 @@ public class Tests {
         setupPriceList();
         priceList.addItem("bread loaf", 0.99, 0);
         priceList.setXForYSpecial("bread loaf", 3, 5);
-        int actual1 = priceList.getXForYSpecial("bread loaf").get("X");
-        int actual2 = priceList.getXForYSpecial("bread loaf").get("YDollars");
+        int actual1 = priceList.getXForYSpecial("bread loaf").getNumberThatMustBePurchased();
+        double actual2 = priceList.getXForYSpecial("bread loaf").getPriceForSet();
         assertEquals(3, actual1, 0.1);
         assertEquals(5, actual2, 0.1);
     }
@@ -192,8 +192,8 @@ public class Tests {
     public void addXForYdollarsSpecialReturnSpecial(){
         Item orange = new Item("orange", 1.35, 0.10);
         orange.setXForYDollarsSpecial(5, 5);
-        assertEquals(5, orange.getXForYSpecial().get("X"), 0.1);
-        assertEquals(5, orange.getXForYSpecial().get("YDollars"), 0.1);
+        assertEquals(5, orange.getXForYSpecial().getNumberThatMustBePurchased(), 0.1);
+        assertEquals(5, orange.getXForYSpecial().getPriceForSet(), 0.1);
     }
 
     @Test

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ItemOnReceiptXforYTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-09-13T19:02:05" hostname="Jessicas-MacBook-Pro.local" time="0.0">
+<testsuite name="ItemOnReceiptXforYTests" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-09-13T19:20:23" hostname="Jessicas-MacBook-Pro.local" time="0.001">
   <properties/>
   <testcase name="buyFourAtTwoForOneReturn2dollars" classname="ItemOnReceiptXforYTests" time="0.0"/>
   <testcase name="buyThreeAtTwoForOneReturn2dollars" classname="ItemOnReceiptXforYTests" time="0.0"/>

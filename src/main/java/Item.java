@@ -6,7 +6,7 @@ public class Item {
     private double mMarkdown;
     //private HashMap<String, Integer> mSpecial;
     private SpecialBuyNGetMForXPercentOff mSpecial;
-    private HashMap<String, Integer> mXForYSpecial;
+    private SpecialXForY mXForYSpecial;
     private HashMap<String, Integer> mBuyKGetJLesserForPercentOff;
 
 
@@ -31,13 +31,11 @@ public class Item {
         return mSpecial;
     }
 
-    public void setXForYDollarsSpecial(int x, int yDollars) {
-        mXForYSpecial = new HashMap<>();
-        mXForYSpecial.put("X", x);
-        mXForYSpecial.put("YDollars", yDollars);
+    public void setXForYDollarsSpecial(int x, double yDollars) {
+        mXForYSpecial = new SpecialXForY(x, yDollars);
     }
 
-    public HashMap<String, Integer> getXForYSpecial(){
+    public SpecialXForY getXForYSpecial(){
         return mXForYSpecial;
     }
 

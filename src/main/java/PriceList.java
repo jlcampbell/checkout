@@ -34,13 +34,13 @@ public class PriceList {
         return item.getSpecial();
     }
 
-    public void setXForYSpecial(String name, int x, int y) {
+    public void setXForYSpecial(String name, int x, double y) {
         Item item = getItem(name);
         item.setXForYDollarsSpecial(x, y);
         mItems.put(name, item);
     }
 
-    public HashMap<String, Integer> getXForYSpecial(String name) {
+    public SpecialXForY getXForYSpecial(String name) {
         return getItem(name).getXForYSpecial();
     }
 

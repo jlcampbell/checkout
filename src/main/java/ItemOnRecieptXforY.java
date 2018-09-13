@@ -3,7 +3,7 @@ import java.util.HashMap;
 public class ItemOnRecieptXforY {
     private Double mOriginalPrice;
     private Double mMarkdown;
-    private HashMap<String, Integer> mSpecial;
+    private SpecialXForY mSpecial;
     int mQuantity;
     Item mItem;
 
@@ -19,8 +19,8 @@ public class ItemOnRecieptXforY {
         mQuantity += 1;
     }
     public double getTotal(){
-        int quantityToBePurchasedToApplySpecial = mSpecial.get("X");
-        int specialPrice = mSpecial.get("YDollars");
+        int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
+        double specialPrice = mSpecial.getPriceForSet();
         double answer;
         int numberOfTimesSpecialIsApplied = mQuantity/quantityToBePurchasedToApplySpecial;
         int extras = mQuantity % quantityToBePurchasedToApplySpecial;
