@@ -98,9 +98,23 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             assertEquals(expected, actual, 0.01);
 
         }
-
-
         //least expensive item is discounted
+    @Test
+        public void sameSixItemsScannedInAnyOrderReturnSameTotal(){
+        setupWithMarkdownAndSpecial();
+
+        breadForThisOrder.addItem(1.0);
+        breadForThisOrder.addItem(1.0);
+        breadForThisOrder.addItem(2.0);
+        breadForThisOrder.addItem(1.0);
+        breadForThisOrder.addItem(1.0);
+        breadForThisOrder.addItem(2.0);
+        double actual = breadForThisOrder.getTotalPrice();
+        double expected = ((1.0*2.0)-0.50+(1*1)-0.50+((1*1)-0.50)*0.50)*2;
+        assertEquals(expected, actual, 0.01);
+    }
+
+
         //limit is respected
         //no special causes no problems
 

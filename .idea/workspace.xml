@@ -24,6 +24,8 @@
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Tests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TransactionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TransactionTests.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java" afterDir="false" />
     </list>
@@ -95,13 +97,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="13244" />
+          <entry key="java" value="13344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="13244" />
+          <entry key="JAVA" value="13344" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -129,8 +131,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="91">
-              <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+            <state relative-caret-position="253">
+              <caret line="60" selection-start-line="60" selection-end-line="60" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#594#595#0" expanded="true" />
@@ -147,7 +149,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
+            <state relative-caret-position="133">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -846,20 +848,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1535682295346</updated>
-      <workItem from="1535682299349" duration="87040000" />
+      <workItem from="1535682299349" duration="87889000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests_addOneItemTotalNumberOfItemsIs1 - 2018.09.12 at 15h 40m 05s.xml">
-      <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.addOneItemTotalNumberOfItemsIs1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests_addOneItemTotalNumberOfItemsIs1 - 2018.09.12 at 15h 40m 26s.xml">
-      <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.addOneItemTotalNumberOfItemsIs1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests_addOneItemTotalNumberOfItemsIs1 - 2018.09.12 at 16h 10m 00s.xml">
-      <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.addOneItemTotalNumberOfItemsIs1" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests_addOneItemTotalNumberOfItemsIs1 - 2018.09.12 at 16h 13m 53s.xml">
       <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.addOneItemTotalNumberOfItemsIs1" configurationId="JUnit" />
     </history-entry>
@@ -881,9 +874,18 @@
     <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests - 2018.09.12 at 22h 52m 19s.xml">
       <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests - 2018.09.12 at 23h 15m 51s.xml">
+      <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests - 2018.09.12 at 23h 16m 01s.xml">
+      <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests - 2018.09.12 at 23h 17m 34s.xml">
+      <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="87040000" />
+    <option name="totallyTimeSpent" value="87889000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1157,69 +1159,75 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>57</line>
-          <properties />
-          <option name="timeStamp" value="100" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>54</line>
-          <properties />
-          <option name="timeStamp" value="101" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>45</line>
-          <properties />
-          <option name="timeStamp" value="104" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>46</line>
-          <properties />
-          <option name="timeStamp" value="105" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>59</line>
+          <line>61</line>
           <properties />
           <option name="timeStamp" value="107" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>61</line>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="108" />
+          <option name="timeStamp" value="117" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>56</line>
+          <line>51</line>
           <properties />
-          <option name="timeStamp" value="109" />
+          <option name="timeStamp" value="118" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>55</line>
+          <line>52</line>
           <properties />
-          <option name="timeStamp" value="110" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
-          <line>49</line>
-          <properties />
-          <option name="timeStamp" value="111" />
+          <option name="timeStamp" value="119" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
           <line>53</line>
           <properties />
-          <option name="timeStamp" value="112" />
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="121" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
           <line>58</line>
           <properties />
-          <option name="timeStamp" value="113" />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
+          <line>59</line>
+          <properties />
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
+          <line>60</line>
+          <properties />
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java</url>
+          <line>54</line>
+          <properties />
+          <option name="timeStamp" value="127" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1441,7 +1449,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
+        <state relative-caret-position="133">
           <caret line="63" selection-start-line="63" selection-end-line="63" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1451,8 +1459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="91">
-          <caret line="52" column="13" selection-start-line="52" selection-start-column="13" selection-end-line="52" selection-end-column="13" />
+        <state relative-caret-position="253">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#594#595#0" expanded="true" />

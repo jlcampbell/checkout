@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Collections;
 import java.util.HashMap;
 
 //Support "Buy N, get M of equal or lesser value for %X off" on weighted items
@@ -46,6 +48,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
         int count = 0;
         //order each price group
         //from each set the lowest ones get the special
+        Collections.sort(mWeights, Collections.reverseOrder());
         for (double weight : mWeights){
             if (count == mNumberYouMustBuy+mNumberYouGetAtSpecial){
                 count = 0;
