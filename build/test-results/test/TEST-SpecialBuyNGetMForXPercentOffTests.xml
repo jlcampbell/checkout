@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpecialBuyNGetMForXPercentOffTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-09-13T18:43:32" hostname="Jessicas-MacBook-Pro.local" time="0.001">
+<testsuite name="SpecialBuyNGetMForXPercentOffTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-09-13T18:47:20" hostname="Jessicas-MacBook-Pro.local" time="0.001">
   <properties/>
-  <testcase name="getNumberThatMustBePurchasedGetsNumberUsedInConstructor" classname="SpecialBuyNGetMForXPercentOffTests" time="0.001"/>
+  <testcase name="getPercentOffReturnsThirdConstructorArg" classname="SpecialBuyNGetMForXPercentOffTests" time="0.001"/>
+  <testcase name="getNumberDiscountedReturnsSecondConstructorArg" classname="SpecialBuyNGetMForXPercentOffTests" time="0.0"/>
+  <testcase name="getNumberThatMustBePurchasedGetsNumberUsedInConstructor" classname="SpecialBuyNGetMForXPercentOffTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

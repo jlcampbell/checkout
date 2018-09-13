@@ -19,6 +19,9 @@ public class SpecialBuyNGetMForXPercentOffTests {
     }
     @Test
     public void getPercentOffReturnsThirdConstructorArg(){
-
+        SpecialBuyNGetMForXPercentOff special = new SpecialBuyNGetMForXPercentOff(5, 1 , 50);
+        int expected = 50;
+        int actual = special.getPercentOff();
+        assertEquals(expected, actual);
     }
 }

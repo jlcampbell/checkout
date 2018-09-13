@@ -2,8 +2,33 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/SpecialBuyNGetMForXPercentOffTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/SpecialXForY.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SpecialXForYTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SpecialBuyNGetMForXPercentOffTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/SpecialBuyNGetMForXPercentOffTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptXforYTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptXforYTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialBuyNGetMForXPercentOffTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialBuyNGetMForXPercentOffTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Tests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/Tests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TransactionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TransactionTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptXforYTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptXforYTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialBuyNGetMForXPercentOffTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialBuyNGetMForXPercentOffTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Tests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-Tests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TransactionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TransactionTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SpecialBuyNGetMForXPercentOffTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SpecialBuyNGetMForXPercentOffTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -57,7 +82,7 @@
           <entry key="class" value="1" />
           <entry key="gradle" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="45" />
+          <entry key="java" value="48" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
@@ -66,20 +91,20 @@
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="45" />
+          <entry key="JAVA" value="48" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="13914" />
+          <entry key="java" value="14236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="13914" />
+          <entry key="JAVA" value="14236" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -120,15 +145,6 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/XForYDollarsSpecial.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Special.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
@@ -155,7 +171,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SpecialBuyNGetMForXPercentOff.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="135">
@@ -173,8 +189,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/SpecialBuyNGetMForXPercentOffTests.java">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SpecialXForY.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+              <folding>
+                <element signature="e#100#101#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/SpecialXForYTests.java">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="75">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+              <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -589,6 +630,8 @@
         <option value="$PROJECT_DIR$/src/main/java/PriceList.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/SpecialBuyNGetMForXPercentOffTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/SpecialXForYTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SpecialXForY.java" />
       </list>
     </option>
   </component>
@@ -874,7 +917,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="92122000" />
+    <option name="totallyTimeSpent" value="92927000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1442,16 +1485,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2760">
-          <caret line="186" column="66" selection-start-line="186" selection-start-column="66" selection-end-line="186" selection-end-column="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1475,6 +1508,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpecialBuyNGetMForXPercentOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#440#441#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#506#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpecialTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1487,20 +1533,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpecialBuyNGetMForXPercentOffTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="90">
+          <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpecialBuyNGetMForXPercentOff.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+        <state relative-caret-position="412">
+          <caret line="186" column="66" selection-start-line="186" selection-start-column="66" selection-end-line="186" selection-end-column="66" />
           <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/SpecialXForYTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="52" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpecialXForY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="73" selection-start-line="2" selection-start-column="73" selection-end-line="2" selection-end-column="73" />
+          <folding>
+            <element signature="e#100#101#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
           </folding>
         </state>
       </provider>
