@@ -83,6 +83,26 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             double expected = (1.0*2.0)-0.50+(1*1)-0.50+((1*1)-0.50)*0.50;
             assertEquals(expected, actual, 0.01);
         }
+        //special is applied twice when six items purchased
+    @Test
+        public void whenSixItemsArePurchasedSpecialIsAppliedTwice(){
+            setupWithMarkdownAndSpecial();
+            breadForThisOrder.addItem(2.0);
+            breadForThisOrder.addItem(1.0);
+            breadForThisOrder.addItem(1.0);
+            breadForThisOrder.addItem(2.0);
+            breadForThisOrder.addItem(1.0);
+            breadForThisOrder.addItem(1.0);
+            double actual = breadForThisOrder.getTotalPrice();
+            double expected = ((1.0*2.0)-0.50+(1*1)-0.50+((1*1)-0.50)*0.50)*2;
+            assertEquals(expected, actual, 0.01);
+
+        }
+
+
+        //least expensive item is discounted
+        //limit is respected
+        //no special causes no problems
 
     }
 

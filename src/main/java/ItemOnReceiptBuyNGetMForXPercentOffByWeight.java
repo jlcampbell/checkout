@@ -42,16 +42,18 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
         mNumberYouMustBuy = mSpecial.get("K");
         mNumberYouGetAtSpecial = mSpecial.get("J");
 
-
         double total = 0;
         int count = 0;
         //order each price group
         //from each set the lowest ones get the special
         for (double weight : mWeights){
+            if (count == mNumberYouMustBuy+mNumberYouGetAtSpecial){
+                count = 0;
+            }
             if (count < mNumberYouMustBuy ){
                 total += getOriginalPriceMinusMarkdown(weight);
                 count += 1;
-            } else if (count >= mNumberYouMustBuy){
+            } else if (count >= mNumberYouMustBuy && count< mNumberYouMustBuy+mNumberYouGetAtSpecial){
                 total += getSpecialPrice(weight);
                 count += 1;
             }

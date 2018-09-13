@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" tests="6" skipped="0" failures="0" errors="0" timestamp="2018-09-12T20:17:42" hostname="Jessicas-MacBook-Pro.local" time="0.003">
+<testsuite name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" tests="7" skipped="0" failures="0" errors="0" timestamp="2018-09-13T03:05:04" hostname="Jessicas-MacBook-Pro.local" time="0.003">
   <properties/>
   <testcase name="getTotalOfOneItemDoesntMeetSpecialReturnsPriceMinusMarkdownOfThatItem" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.001"/>
   <testcase name="addOneItemTotalNumberOfItemsIs1" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.0"/>
-  <testcase name="calculateSpecialPriceOf1lbItemAt1DollarPerPoundAt50percentOff" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.0"/>
+  <testcase name="calculateSpecialPriceOf1lbItemAt1DollarPerPoundAt50percentOff" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.001"/>
   <testcase name="getTotalOfTwoItemsDoesntMeetSpecialReturnsPriceMinusMarkdownOfItems" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.0"/>
   <testcase name="getTotalOfThreeItemsWhereSpecialIsAppliedToOne" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.0"/>
   <testcase name="calculatePriceAfterMarkdownReturnsOriginalPriceMinusMarkdown" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.0"/>
+  <testcase name="whenSixItemsArePurchasedSpecialIsAppliedTwice" classname="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
