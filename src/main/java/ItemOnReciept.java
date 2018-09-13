@@ -8,7 +8,7 @@ import java.util.List;
 public class ItemOnReciept {
     private Double mOriginalPrice;
     private Double mMarkdown;
-    private HashMap<String, Integer> mSpecial;
+    private SpecialBuyNGetMForXPercentOff mSpecial;
     int mQuantity;
     Item mItem;
 
@@ -24,8 +24,8 @@ public class ItemOnReciept {
     }
 
     public double[] getPriceArray(){
-        int quantityToBePurchasedToApplySpecial = mSpecial.get("N");
-        int quantityToBeGottenAtDiscount = mSpecial.get("M");
+        int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
+        int quantityToBeGottenAtDiscount = mSpecial.getNumberDiscounted();
         int counter = 0;
         double[] priceArray = new double[mQuantity];
         for (int i = 0; i<mQuantity; i++){
@@ -52,7 +52,7 @@ public class ItemOnReciept {
 
     public double calculateSpecialPrice(){
         double priceAfterMarkdown = mOriginalPrice - mMarkdown;
-        double specialPrice = priceAfterMarkdown - priceAfterMarkdown*mSpecial.get("percent off")/100;
+        double specialPrice = priceAfterMarkdown - priceAfterMarkdown*mSpecial.getPercentOff()/100;
         return specialPrice;
     }
 

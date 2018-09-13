@@ -29,7 +29,7 @@ public class PriceList {
         mItems.put(name, item);
     }
 
-    public HashMap<String, Integer> getSpecial(String name) {
+    public SpecialBuyNGetMForXPercentOff getSpecial(String name) {
         Item item = getItem(name);
         return item.getSpecial();
     }

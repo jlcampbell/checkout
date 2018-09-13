@@ -132,9 +132,9 @@ public class Tests {
         setupPriceList();
         priceList.addItem("bread loaf", 0.99, 0);
         priceList.setSpecial("bread loaf", 3, 1, 100);
-        int actual1 = priceList.getSpecial("bread loaf").get("N");
-        int actual2 = priceList.getSpecial("bread loaf").get("M");
-        int actual3 = priceList.getSpecial("bread loaf").get("percent off");
+        int actual1 = priceList.getSpecial("bread loaf").getNumberThatMustBePurchased();
+        int actual2 = priceList.getSpecial("bread loaf").getNumberDiscounted();
+        int actual3 = priceList.getSpecial("bread loaf").getPercentOff();
         assertEquals(3, actual1, 0.1);
         assertEquals(1, actual2, 0.1);
         assertEquals(100, actual3, 0.1);
@@ -183,9 +183,9 @@ public class Tests {
     public void addSpecialToPriceListItemGetSpecialsReturnsThatSpecial(){
         Item orange = new Item("orange", 1.35, 0.10);
         orange.setSpecial(3, 1, 100);
-        assertEquals(3, orange.getSpecial().get("N"), 0.01);
-        assertEquals(1, orange.getSpecial().get("M"), 0.01);
-        assertEquals(100, orange.getSpecial().get("percent off"), 0.01);
+        assertEquals(3, orange.getSpecial().getNumberThatMustBePurchased());
+        assertEquals(1, orange.getSpecial().getNumberDiscounted());
+        assertEquals(100, orange.getSpecial().getPercentOff(), 0.01);
     }
     //Req #5 support special X for $Y
     @Test

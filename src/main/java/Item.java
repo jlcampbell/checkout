@@ -4,7 +4,8 @@ public class Item {
     private String mName;
     private double mPrice;
     private double mMarkdown;
-    private HashMap<String, Integer> mSpecial;
+    //private HashMap<String, Integer> mSpecial;
+    private SpecialBuyNGetMForXPercentOff mSpecial;
     private HashMap<String, Integer> mXForYSpecial;
     private HashMap<String, Integer> mBuyKGetJLesserForPercentOff;
 
@@ -23,13 +24,10 @@ public class Item {
     }
 //TODO refactor name
     public void setSpecial(int n, int m, int percentOffM) {
-        mSpecial = new HashMap<>();
-        mSpecial.put("N", n);
-        mSpecial.put("M", m);
-        mSpecial.put("percent off", percentOffM);
+        mSpecial = new SpecialBuyNGetMForXPercentOff(n, m, percentOffM);
     }
 
-    public HashMap<String, Integer> getSpecial(){
+    public SpecialBuyNGetMForXPercentOff getSpecial(){
         return mSpecial;
     }
 
