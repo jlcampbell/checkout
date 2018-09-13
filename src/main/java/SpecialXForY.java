@@ -10,5 +10,8 @@ public class SpecialXForY extends Special {
     public int getNumberThatMustBePurchased(){
         return mNumberThatMustBePurchased;
     }
+    public double getPriceForSet(){
+        return mPriceForSet;
+    }
 
 }
