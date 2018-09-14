@@ -25,7 +25,7 @@ public class Transaction {
         //calculate price after markdown
         double costAfterMarkdown = cost-markdown;
         //get specials from price list
-        Special special = mPriceList.getSpecial(name);
+        Special special = mPriceList.getSpecialBuyNGetMForXPercentOff(name);
         //calculate new prices
 
         //update special prices

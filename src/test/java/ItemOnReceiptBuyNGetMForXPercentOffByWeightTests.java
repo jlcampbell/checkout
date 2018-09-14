@@ -11,7 +11,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
         public void setup(){
             priceList = new PriceList();
             priceList.addItem("bread loaf", 1, 0);
-            priceList.setBuyKGetJEqualorLessForXOffSpecial("bread loaf", 2, 1, 50);
+            priceList.setSpecialBuyNGetMForXPercentOff("bread loaf", 2, 1, 50);
             bread = priceList.getItem("bread loaf");
             breadForThisOrder = new ItemOnReceiptBuyNGetMForXPercentOffByWeight(bread);
         }
@@ -50,7 +50,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
     public void setupWithMarkdownAndSpecial(){
         priceList = new PriceList();
         priceList.addItem("bread loaf", 1, 0.50);
-        priceList.setBuyKGetJEqualorLessForXOffSpecial("bread loaf", 2, 1, 50);
+        priceList.setSpecialBuyNGetMForXPercentOff("bread loaf", 2, 1, 50);
         bread = priceList.getItem("bread loaf");
         breadForThisOrder = new ItemOnReceiptBuyNGetMForXPercentOffByWeight(bread);
     }

@@ -16,7 +16,7 @@ public class ItemOnReciept {
         mItem = item;
         mOriginalPrice = item.getPrice();
         mMarkdown = item.getMarkdown();
-        mSpecial = item.getSpecial();
+        mSpecial = item.getSpecialBuyNGetMForXPercentOff();
         mQuantity = 0;
     }
     public void addItem(){

@@ -23,35 +23,36 @@ public class PriceList {
         return mItems.get(name);
     }
 //TODO consider refactor so pricelist only contains CRUD for item
-    public void setSpecial(String name, int n, int m, int percentOffM) {
+
+    public void setSpecialBuyNGetMForXPercentOff(String name, int n, int m, int percentOffM) {
         Item item = getItem(name);
-        item.setSpecial(n, m, percentOffM);
+        item.setSpecialBuyNGetMForXPercentOff(n, m, percentOffM);
         mItems.put(name, item);
     }
 
-    public SpecialBuyNGetMForXPercentOff getSpecial(String name) {
+    public SpecialBuyNGetMForXPercentOff getSpecialBuyNGetMForXPercentOff(String name) {
         Item item = getItem(name);
-        return item.getSpecial();
+        return item.getSpecialBuyNGetMForXPercentOff();
     }
 
     public void setXForYSpecial(String name, int x, double y) {
         Item item = getItem(name);
-        item.setXForYDollarsSpecial(x, y);
+        item.setSpecialXForYDollars(x,y);
         mItems.put(name, item);
     }
 
     public SpecialXForY getXForYSpecial(String name) {
-        return getItem(name).getXForYSpecial();
+        return getItem(name).getSpecialXForYDollars();
     }
 
-    public void setBuyKGetJEqualorLessForXOffSpecial(String name, int k, int j, int x) {
-        Item item = getItem(name);
-        item.setBuyKGetJEqualOrLessXOffSpecial(k, j, x);
-        mItems.put(name, item);
-    }
-
-    public HashMap<String, Integer> getKJXSpecial(String name) {
-        return getItem(name).getBuyKGetJEqualOrLessXOffSpecial();
-    }
+//    public void setBuyKGetJEqualorLessForXOffSpecial(String name, int k, int j, int x) {
+//        Item item = getItem(name);
+//        item.setBuyKGetJEqualOrLessXOffSpecial(k, j, x);
+//        mItems.put(name, item);
+//    }
+//
+//    public HashMap<String, Integer> getKJXSpecial(String name) {
+//        return getItem(name).getBuyKGetJEqualOrLessXOffSpecial();
+//    }
 
 }

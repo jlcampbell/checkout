@@ -128,16 +128,16 @@ public class Tests {
     //Req #4 buy N items get M at x% off
     //Need to be able to set a special in the pricelist and then retrieve it
     @Test
-    public void addSpecialToItemGetSpecialsReturnsThatSpecial(){
+    public void addKJISpecialAndReturnIt(){
         setupPriceList();
         priceList.addItem("bread loaf", 0.99, 0);
-        priceList.setSpecial("bread loaf", 3, 1, 100);
-        int actual1 = priceList.getSpecial("bread loaf").getNumberThatMustBePurchased();
-        int actual2 = priceList.getSpecial("bread loaf").getNumberDiscounted();
-        int actual3 = priceList.getSpecial("bread loaf").getPercentOff();
+        priceList.setSpecialBuyNGetMForXPercentOff("bread loaf", 3, 1, 50);
+        int actual1 = priceList.getSpecialBuyNGetMForXPercentOff("bread loaf").getNumberThatMustBePurchased();
+        int actual2 = priceList.getSpecialBuyNGetMForXPercentOff("bread loaf").getNumberDiscounted();
+        int actual3 = priceList.getSpecialBuyNGetMForXPercentOff("bread loaf").getPercentOff();
         assertEquals(3, actual1, 0.1);
         assertEquals(1, actual2, 0.1);
-        assertEquals(100, actual3, 0.1);
+        assertEquals(50, actual3, 0.1);
     }
     //Req #5 X for Y dollars
     //Need to be able to set a special in the pricelist and then retrieve it
@@ -153,18 +153,6 @@ public class Tests {
     }
 
     //Req #8 Buy K get J equal or less value for I percent off (weighted items)
-    @Test
-    public void addKJISpecialAndReturnIt(){
-        setupPriceList();
-        priceList.addItem("bread loaf", 0.99, 0);
-        priceList.setBuyKGetJEqualorLessForXOffSpecial("bread loaf", 3, 1, 50);
-        int actual1 = priceList.getKJXSpecial("bread loaf").get("K");
-        int actual2 = priceList.getKJXSpecial("bread loaf").get("J");
-        int actual3 = priceList.getKJXSpecial("bread loaf").get("percentOffLesserValue");
-        assertEquals(3, actual1, 0.1);
-        assertEquals(1, actual2, 0.1);
-        assertEquals(50, actual3, 0.1);
-    }
 
     //  Item object
     @Test
@@ -182,27 +170,27 @@ public class Tests {
     @Test
     public void addSpecialToPriceListItemGetSpecialsReturnsThatSpecial(){
         Item orange = new Item("orange", 1.35, 0.10);
-        orange.setSpecial(3, 1, 100);
-        assertEquals(3, orange.getSpecial().getNumberThatMustBePurchased());
-        assertEquals(1, orange.getSpecial().getNumberDiscounted());
-        assertEquals(100, orange.getSpecial().getPercentOff(), 0.01);
+        orange.setSpecialBuyNGetMForXPercentOff(3, 1, 100);
+        assertEquals(3, orange.getSpecialBuyNGetMForXPercentOff().getNumberThatMustBePurchased());
+        assertEquals(1, orange.getSpecialBuyNGetMForXPercentOff().getNumberDiscounted());
+        assertEquals(100, orange.getSpecialBuyNGetMForXPercentOff().getPercentOff(), 0.01);
     }
     //Req #5 support special X for $Y
     @Test
     public void addXForYdollarsSpecialReturnSpecial(){
         Item orange = new Item("orange", 1.35, 0.10);
-        orange.setXForYDollarsSpecial(5, 5);
-        assertEquals(5, orange.getXForYSpecial().getNumberThatMustBePurchased(), 0.1);
-        assertEquals(5, orange.getXForYSpecial().getPriceForSet(), 0.1);
+        orange.setSpecialXForYDollars(5, 5);
+        assertEquals(5, orange.getSpecialXForYDollars().getNumberThatMustBePurchased(), 0.1);
+        assertEquals(5, orange.getSpecialXForYDollars().getPriceForSet(), 0.1);
     }
 
     @Test
     public void addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial(){
         Item orange = new Item("orange", 1.35, 0.10);
-        orange.setBuyKGetJEqualOrLessXOffSpecial(5, 3, 50);
-        assertEquals(5, orange.getBuyKGetJEqualOrLessXOffSpecial().get("K"), 0.1);
-        assertEquals(3, orange.getBuyKGetJEqualOrLessXOffSpecial().get("J"), 0.1);
-        assertEquals(50, orange.getBuyKGetJEqualOrLessXOffSpecial().get("percentOffLesserValue"), 0.1);
+        orange.setSpecialBuyNGetMForXPercentOff(5, 3, 50);
+        assertEquals(5, orange.getSpecialBuyNGetMForXPercentOff().getNumberThatMustBePurchased(), 0.1);
+        assertEquals(3, orange.getSpecialBuyNGetMForXPercentOff().getNumberDiscounted(), 0.1);
+        assertEquals(50, orange.getSpecialBuyNGetMForXPercentOff().getPercentOff(), 0.1);
 
 
     }

@@ -11,7 +11,7 @@ public class ItemOnReceiptTests {
     public void setup(){
         priceList = new PriceList();
         priceList.addItem("bread loaf", 1, 0);
-        priceList.setSpecial("bread loaf", 1, 1, 50);
+        priceList.setSpecialBuyNGetMForXPercentOff("bread loaf", 1, 1, 50);
         bread = priceList.getItem("bread loaf");
         breadForThisOrder = new ItemOnReciept(bread);
     }

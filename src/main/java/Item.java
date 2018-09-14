@@ -23,30 +23,30 @@ public class Item {
         return mMarkdown;
     }
 //TODO refactor name
-    public void setSpecial(int n, int m, int percentOffM) {
+    public void setSpecialBuyNGetMForXPercentOff(int n, int m, int percentOffM) {
         mSpecial = new SpecialBuyNGetMForXPercentOff(n, m, percentOffM);
     }
 
-    public SpecialBuyNGetMForXPercentOff getSpecial(){
+    public SpecialBuyNGetMForXPercentOff getSpecialBuyNGetMForXPercentOff(){
         return mSpecial;
     }
 
-    public void setXForYDollarsSpecial(int x, double yDollars) {
+    public void setSpecialXForYDollars(int x, double yDollars) {
         mXForYSpecial = new SpecialXForY(x, yDollars);
     }
 
-    public SpecialXForY getXForYSpecial(){
+    public SpecialXForY getSpecialXForYDollars(){
         return mXForYSpecial;
     }
 
-    public void setBuyKGetJEqualOrLessXOffSpecial(int k, int j, int percentOffLesserValue) {
-        mBuyKGetJLesserForPercentOff = new HashMap<>();
-        mBuyKGetJLesserForPercentOff.put("K", k);
-        mBuyKGetJLesserForPercentOff.put("J", j);
-        mBuyKGetJLesserForPercentOff.put("percentOffLesserValue", percentOffLesserValue);
-    }
-    public HashMap<String, Integer> getBuyKGetJEqualOrLessXOffSpecial(){
-        return mBuyKGetJLesserForPercentOff;
-    }
+//    public void setBuyKGetJEqualOrLessXOffSpecial(int k, int j, int percentOffLesserValue) {
+//        mBuyKGetJLesserForPercentOff = new HashMap<>();
+//        mBuyKGetJLesserForPercentOff.put("K", k);
+//        mBuyKGetJLesserForPercentOff.put("J", j);
+//        mBuyKGetJLesserForPercentOff.put("percentOffLesserValue", percentOffLesserValue);
+//    }
+//    public HashMap<String, Integer> getBuyKGetJEqualOrLessXOffSpecial(){
+//        return mBuyKGetJLesserForPercentOff;
+//    }
 
 }

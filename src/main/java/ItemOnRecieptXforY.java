@@ -11,7 +11,7 @@ public class ItemOnRecieptXforY {
         mItem = item;
         mOriginalPrice = item.getPrice();
         mMarkdown = item.getMarkdown();
-        mSpecial = item.getXForYSpecial();
+        mSpecial = item.getSpecialXForYDollars();
         mQuantity = 0;
     }
 

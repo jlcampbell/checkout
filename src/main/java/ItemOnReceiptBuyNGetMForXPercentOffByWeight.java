@@ -8,7 +8,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
 
     private Double mOriginalPrice;
     private Double mMarkdown;
-    private HashMap<String, Integer> mSpecial;
+    private SpecialBuyNGetMForXPercentOff mSpecial;
     ArrayList<Double> mWeights;
     Item mItem;
     private int mNumberYouMustBuy;
@@ -19,7 +19,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
         mItem = item;
         mOriginalPrice = item.getPrice();
         mMarkdown = item.getMarkdown();
-        mSpecial = item.getBuyKGetJEqualOrLessXOffSpecial();
+        mSpecial = item.getSpecialBuyNGetMForXPercentOff();
 
         mWeights = new ArrayList<>();
     }
@@ -32,7 +32,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
     }
 
     public double getSpecialPrice(double weight) {
-        mPercentOff = mSpecial.get("percentOffLesserValue");
+        mPercentOff = mSpecial.getPercentOff();
         return getOriginalPriceMinusMarkdown(weight)*mPercentOff/100;
     }
 
@@ -41,8 +41,8 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight {
     }
 
     public double getTotalPrice() {
-        mNumberYouMustBuy = mSpecial.get("K");
-        mNumberYouGetAtSpecial = mSpecial.get("J");
+        mNumberYouMustBuy = mSpecial.getNumberThatMustBePurchased();
+        mNumberYouGetAtSpecial = mSpecial.getNumberDiscounted();
 
         double total = 0;
         int count = 0;
