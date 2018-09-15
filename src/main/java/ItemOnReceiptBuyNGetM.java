@@ -9,11 +9,10 @@ public class ItemOnReceiptBuyNGetM extends ItemOnReceipt{
 
     private SpecialBuyNGetMForXPercentOff mSpecial;
     int mQuantity;
-    Item mItem;
+
 
     public ItemOnReceiptBuyNGetM(Item item){
         super(item);
-        mItem = item;
         mSpecial = item.getSpecialBuyNGetMForXPercentOff();
         mQuantity = 0;
     }
@@ -41,6 +40,7 @@ public class ItemOnReceiptBuyNGetM extends ItemOnReceipt{
         }
         return priceArray;
     }
+    @Override
     public double getTotal(){
         double total=0;
         double[] priceArray=getPriceArray();

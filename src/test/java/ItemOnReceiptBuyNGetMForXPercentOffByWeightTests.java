@@ -59,7 +59,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             setupWithMarkdownAndSpecial();
             breadForThisOrder.addItem(2.0);
             //price should be 1.50
-            double actual = breadForThisOrder.getTotalPrice();
+            double actual = breadForThisOrder.getTotal();
             double expected = (1.0*2.0)-0.50;
             assertEquals(expected, actual, 0.01);
         }
@@ -69,7 +69,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             breadForThisOrder.addItem(2.0);
             //price should be 1.50
             breadForThisOrder.addItem(1.0);
-            double actual = breadForThisOrder.getTotalPrice();
+            double actual = breadForThisOrder.getTotal();
             double expected = (1.0*2.0)-0.50+(1*1)-0.50;
             assertEquals(expected, actual, 0.01);
         }
@@ -79,7 +79,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             breadForThisOrder.addItem(2.0);
             breadForThisOrder.addItem(1.0);
             breadForThisOrder.addItem(1.0);
-            double actual = breadForThisOrder.getTotalPrice();
+            double actual = breadForThisOrder.getTotal();
             double expected = (1.0*2.0)-0.50+(1*1)-0.50+((1*1)-0.50)*0.50;
             assertEquals(expected, actual, 0.01);
         }
@@ -93,7 +93,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
             breadForThisOrder.addItem(2.0);
             breadForThisOrder.addItem(1.0);
             breadForThisOrder.addItem(1.0);
-            double actual = breadForThisOrder.getTotalPrice();
+            double actual = breadForThisOrder.getTotal();
             double expected = ((1.0*2.0)-0.50+(1*1)-0.50+((1*1)-0.50)*0.50)*2;
             assertEquals(expected, actual, 0.01);
 
@@ -109,7 +109,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeightTests {
         breadForThisOrder.addItem(1.0);
         breadForThisOrder.addItem(1.0);
         breadForThisOrder.addItem(2.0);
-        double actual = breadForThisOrder.getTotalPrice();
+        double actual = breadForThisOrder.getTotal();
         double expected = ((1.0*2.0)-0.50+(1*1)-0.50+((1*1)-0.50)*0.50)*2;
         assertEquals(expected, actual, 0.01);
     }

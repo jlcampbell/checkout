@@ -1,23 +1,20 @@
 import java.util.HashMap;
 
-public class ItemOnRecieptXforY {
-    private Double mOriginalPrice;
-    private Double mMarkdown;
+public class ItemOnRecieptXforY extends ItemOnReceipt {
     private SpecialXForY mSpecial;
     int mQuantity;
-    Item mItem;
 
     public ItemOnRecieptXforY(Item item){
-        mItem = item;
-        mOriginalPrice = item.getPrice();
-        mMarkdown = item.getMarkdown();
+        super(item);
         mSpecial = item.getSpecialXForYDollars();
         mQuantity = 0;
     }
-
+    @Override
     public void addItem(){
         mQuantity += 1;
     }
+
+    @Override
     public double getTotal(){
         int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
         double specialPrice = mSpecial.getPriceForSet();
