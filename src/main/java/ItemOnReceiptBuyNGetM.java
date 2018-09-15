@@ -5,25 +5,25 @@ import java.util.List;
 
 //keep track of how many of this type of item we have for specials
 //calculate and apply specials price
-public class ItemOnReciept {
-    private Double mOriginalPrice;
-    private Double mMarkdown;
+public class ItemOnReceiptBuyNGetM extends ItemOnReceipt{
+
     private SpecialBuyNGetMForXPercentOff mSpecial;
     int mQuantity;
     Item mItem;
 
-    public ItemOnReciept(Item item){
+    public ItemOnReceiptBuyNGetM(Item item){
+        super(item);
         mItem = item;
-        mOriginalPrice = item.getPrice();
-        mMarkdown = item.getMarkdown();
         mSpecial = item.getSpecialBuyNGetMForXPercentOff();
         mQuantity = 0;
     }
+
+    @Override
     public void addItem(){
        mQuantity += 1;
     }
 
-    public double[] getPriceArray(){
+    private double[] getPriceArray(){
         int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
         int quantityToBeGottenAtDiscount = mSpecial.getNumberDiscounted();
         int counter = 0;

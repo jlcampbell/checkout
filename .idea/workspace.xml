@@ -2,29 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Item.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PriceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PriceList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptXforYTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SpecialBuyNGetMForXPercentOffTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SpecialTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/SpecialXForYTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Tests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TransactionTests.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Item.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/PriceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PriceList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ItemOnReciept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/ItemOnRecieptXforY.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/ItemOnRecieptXforY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/PriceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/PriceList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/classes/XForYDollarsSpecial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptXforYTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/ItemOnReceiptXforYTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/test/classes/Tests.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/test/classes/Tests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReciept.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Transaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -79,7 +75,7 @@
           <entry key="class" value="1" />
           <entry key="gradle" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="52" />
+          <entry key="java" value="65" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
@@ -88,20 +84,20 @@
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="52" />
+          <entry key="JAVA" value="65" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="14613" />
+          <entry key="java" value="14729" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="14613" />
+          <entry key="JAVA" value="14729" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -111,123 +107,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="37" column="46" selection-start-line="37" selection-start-column="46" selection-end-line="37" selection-end-column="46" />
-              <folding>
-                <element signature="e#470#471#0" expanded="true" />
-                <element signature="e#499#500#0" expanded="true" />
-                <element signature="e#532#533#0" expanded="true" />
-                <element signature="e#564#565#0" expanded="true" />
-                <element signature="e#919#920#0" expanded="true" />
-                <element signature="e#980#981#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-              <folding>
-                <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#381#382#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="59">
-              <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
+            <state relative-caret-position="53">
+              <caret line="21" selection-start-line="21" selection-end-line="21" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpecialBuyNGetMForXPercentOff.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-              <folding>
-                <element signature="e#401#402#0" expanded="true" />
-                <element signature="e#440#441#0" expanded="true" />
-                <element signature="e#473#474#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpecialBuyNGetMForXPercentOffTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="4" lean-forward="true" selection-start-line="6" selection-end-line="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="190" column="43" selection-start-line="190" selection-start-column="43" selection-end-line="190" selection-end-column="43" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/SpecialXForY.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-              <folding>
-                <element signature="e#396#397#0" expanded="true" />
-                <element signature="e#445#446#0" expanded="true" />
-                <element signature="e#477#478#0" expanded="true" />
-                <element signature="e#511#512#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/SpecialXForYTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/PriceList.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="39" selection-start-line="39" selection-end-line="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1180#1181#0" expanded="true" />
-                <element signature="e#1234#1235#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -236,8 +122,53 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+            <state relative-caret-position="45">
+              <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMTests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -250,6 +181,15 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>ItemOnReceipt</find>
+      <find>ItemOnReciept</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>ItemOnRecieptBuyNGetM</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -621,9 +561,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/Register.java" />
         <option value="$PROJECT_DIR$/build.gradle" />
-        <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/TransactionTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptXforYTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java" />
@@ -638,10 +576,16 @@
         <option value="$PROJECT_DIR$/src/main/java/SpecialXForY.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/PriceList.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Item.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ItemOnRecieptBuyNGetM.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Register.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java" />
       </list>
     </option>
   </component>
@@ -773,7 +717,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.SpecialTests">
+  <component name="RunManager" selected="JUnit.ItemOnReceiptBuyNGetMTests">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -800,6 +744,16 @@
       <option name="MAIN_CLASS_NAME" value="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" />
       <option name="METHOD_NAME" value="getTotalOfThreeItemsWhereSpecialIsAppliedToOne" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemOnReceiptBuyNGetMTests" type="JUnit" factoryName="JUnit">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ItemOnReceiptBuyNGetMTests" />
+      <option name="METHOD_NAME" value="" />
+      <option name="PARAMETERS" value="" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -867,6 +821,7 @@
       <item itemvalue="JUnit.ItemOnReceiptTests" />
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" />
       <item itemvalue="JUnit.SpecialTests" />
+      <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.Tests" />
       <item itemvalue="JUnit.TransactionTests.two1PoundBananasAndBreadLoafReturn2" />
       <item itemvalue="JUnit.TransactionTests.two1PoundBananasReturn1" />
@@ -895,9 +850,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests_getTotalOfThreeItemsWhereSpecialIsAppliedToOne - 2018.09.12 at 16h 16m 00s.xml">
-      <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.getTotalOfThreeItemsWhereSpecialIsAppliedToOne" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests_getTotalOfThreeItemsWhereSpecialIsAppliedToOne - 2018.09.12 at 16h 17m 23s.xml">
       <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.getTotalOfThreeItemsWhereSpecialIsAppliedToOne" configurationId="JUnit" />
     </history-entry>
@@ -925,9 +877,12 @@
     <history-entry file="SpecialTests - 2018.09.13 at 01h 10m 41s.xml">
       <configuration name="SpecialTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ItemOnReceiptBuyNGetMTests - 2018.09.14 at 15h 56m 37s.xml">
+      <configuration name="ItemOnReceiptBuyNGetMTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="95772000" />
+    <option name="totallyTimeSpent" value="101106000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -942,24 +897,24 @@
     <frame x="66" y="23" width="1342" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2769231" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20230769" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.46879756" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.46879756" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.45509893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4003044" />
+      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4003044" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32936507" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.24200913" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.1628615" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -999,114 +954,108 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java</url>
-          <line>33</line>
+          <line>7</line>
           <properties />
           <option name="timeStamp" value="30" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>44</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>46</line>
           <properties />
           <option name="timeStamp" value="35" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>47</line>
           <properties />
           <option name="timeStamp" value="36" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>49</line>
           <properties />
           <option name="timeStamp" value="37" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>26</line>
           <properties />
           <option name="timeStamp" value="38" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>27</line>
           <properties />
           <option name="timeStamp" value="39" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>28</line>
           <properties />
           <option name="timeStamp" value="40" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>30</line>
           <properties />
           <option name="timeStamp" value="41" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>29</line>
           <properties />
           <option name="timeStamp" value="42" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>34</line>
           <properties />
           <option name="timeStamp" value="43" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>35</line>
           <properties />
           <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>37</line>
           <properties />
           <option name="timeStamp" value="45" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>36</line>
           <properties />
           <option name="timeStamp" value="46" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>38</line>
           <properties />
           <option name="timeStamp" value="47" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java</url>
           <line>39</line>
           <properties />
           <option name="timeStamp" value="48" />
@@ -1188,30 +1137,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="24" column="5" lean-forward="true" selection-start-line="24" selection-start-column="5" selection-end-line="24" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#462#463#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#607#608#0" expanded="true" />
-            <element signature="e#675#676#0" expanded="true" />
-            <element signature="e#739#740#0" expanded="true" />
-            <element signature="e#773#774#0" expanded="true" />
-            <element signature="e#712#713#0" expanded="true" />
-            <element signature="e#768#769#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#408#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/junit/junit/4.10/6c98d6766e72d5575f96c9479d1c1d3b865c6e25/junit-4.10-sources.jar!/org/junit/runner/JUnitCore.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1289,26 +1214,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="990">
-          <caret line="66" selection-start-line="66" selection-end-line="66" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="34" selection-end-column="36" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptXforYTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
@@ -1329,36 +1234,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/XForYDollarsSpecial.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="23" selection-start-line="4" selection-start-column="23" selection-end-line="4" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReciept.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Special.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
-          <folding>
-            <element signature="e#116#117#0" expanded="true" />
-            <element signature="e#185#186#0" expanded="true" />
-            <element signature="e#233#234#0" expanded="true" />
-            <element signature="e#281#282#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/XForYDollarsSpecial.java" />
     <entry file="file://$PROJECT_DIR$/src/test/java/SpecialTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1392,53 +1268,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SpecialBuyNGetMForXPercentOff.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
-          <folding>
-            <element signature="e#401#402#0" expanded="true" />
-            <element signature="e#440#441#0" expanded="true" />
-            <element signature="e#473#474#0" expanded="true" />
-            <element signature="e#506#507#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="23" column="22" lean-forward="true" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/SpecialXForYTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="44" column="63" selection-start-line="44" selection-start-column="63" selection-end-line="44" selection-end-column="63" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="27" column="70" selection-start-line="27" selection-start-column="70" selection-end-line="27" selection-end-column="70" />
-          <folding>
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#381#382#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1455,16 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="190" column="43" selection-start-line="190" selection-start-column="43" selection-end-line="190" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="244">
@@ -1476,6 +1301,129 @@
             <element signature="e#564#565#0" expanded="true" />
             <element signature="e#919#920#0" expanded="true" />
             <element signature="e#980#981#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="66" selection-start-line="66" selection-end-line="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="333">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#381#382#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SpecialBuyNGetMForXPercentOff.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="33" lean-forward="true" selection-start-line="9" selection-start-column="33" selection-end-line="9" selection-end-column="33" />
+          <folding>
+            <element signature="e#401#402#0" expanded="true" />
+            <element signature="e#441#442#0" expanded="true" />
+            <element signature="e#473#474#0" expanded="true" />
+            <element signature="e#507#508#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Special.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="5" lean-forward="true" selection-start-line="7" selection-start-column="5" selection-end-line="7" selection-end-column="5" />
+          <folding>
+            <element signature="e#116#117#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#233#234#0" expanded="true" />
+            <element signature="e#282#283#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="4" lean-forward="true" selection-start-line="3" selection-start-column="4" selection-end-line="4" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

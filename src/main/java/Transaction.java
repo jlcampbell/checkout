@@ -7,7 +7,7 @@ public class Transaction {
 
     public Transaction(PriceList priceList){
         mTotal = 0;
-        mItemTotals = new HashMap<String, Integer>();
+        //mItemTotals = new HashMap<String, Integer>();
         mPriceList = priceList;
     }
 
@@ -51,9 +51,7 @@ public class Transaction {
         mTotal += costAfterMarkdown;
     }
 
-    public int getTotalByName(String name) {
-        return mItemTotals.get(name);
-    }
+
 
 
 }

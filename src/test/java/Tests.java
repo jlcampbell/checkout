@@ -65,17 +65,7 @@ public class Tests {
     }
     //Req #4 buy N items get M at x% off
     //Assuming this means N and M items are all multiples of the same item
-    //Need to keep track of the number of each item added
-    @Test
-    public void whenAppleAddedThreeTimesAppleTotalIs3(){
-        setupRegister();
-        register.addNewItemToPriceList("apple", 0.50, 0);
-        register.startTransaction();
-        register.scanItem("apple");
-        register.scanItem("apple");
-        register.scanItem("apple");
-        assertEquals(3, register.getTotalByName("apple"));
-    }
+
     //Req #4 buy N items get M at x% off
     //Need to be able to add a special from the register
 

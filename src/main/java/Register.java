@@ -23,10 +23,7 @@ public class Register {
     public double getTotal(){
         return mTransaction.getTotal();
     }
-    //TODO getTotalByName in register for testing
-    public int getTotalByName(String name){
-        return mTransaction.getTotalByName(name);
-    }
+
 
     public void addNewItemToPriceList(String name, double price, double markdown) {
         mPriceList.addItem(name, price, markdown);
