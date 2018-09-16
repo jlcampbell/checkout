@@ -64,6 +64,24 @@ public class TransactionTests {
 
     //applying specials
     //special should be applied to total as soon as the minimum requirements are met
+    @Before
+    public void setupTransactionWithSomeSpecials(){
+        priceList = new PriceList();
+        priceList.addItem("bread loaf", 1, 0);
+        priceList.addItem("banana", .5, 0);
+        priceList.setSpecialBuyNGetMForXPercentOff("banana", 1, 1, 50);
+        transaction = new Transaction(priceList);
+    }
+    @Test
+    public void testThatSpecialIsNotAppliedWhenOnlyOneItemOfEachTypeIsBought(){
+        //p = .5
+        transaction.scanItem("banana");
+        //p = 1
+        transaction.scanItem("bread loaf");
+        double expected = 1.5;
+        double actual = transaction.getTotal();
+        assertEquals(expected, actual, 0.01);
+    }
 
 
 

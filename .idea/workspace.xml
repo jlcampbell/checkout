@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TransactionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransactionTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -74,13 +72,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="15067" />
+          <entry key="java" value="15326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="15067" />
+          <entry key="JAVA" value="15326" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -105,8 +103,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="424">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
               <folding>
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#348#349#0" expanded="true" />
@@ -115,11 +113,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="317">
+              <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -162,16 +160,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
               <folding>
                 <element signature="e#325#326#0" expanded="true" />
                 <element signature="e#352#353#0" expanded="true" />
-                <element signature="e#347#348#0" expanded="true" />
                 <element signature="e#383#384#0" expanded="true" />
+                <element signature="e#476#477#0" expanded="true" />
                 <element signature="e#532#533#0" expanded="true" />
               </folding>
             </state>
@@ -622,9 +620,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" />
         <option value="$PROJECT_DIR$/src/main/java/Item.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TransactionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TransactionTests.java" />
       </list>
     </option>
   </component>
@@ -900,12 +898,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="SpecialTests - 2018.09.13 at 01h 10m 41s.xml">
-      <configuration name="SpecialTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ItemOnReceiptBuyNGetMTests - 2018.09.14 at 15h 56m 37s.xml">
-      <configuration name="ItemOnReceiptBuyNGetMTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ItemOnReceiptBuyNGetMTests - 2018.09.14 at 23h 38m 35s.xml">
       <configuration name="ItemOnReceiptBuyNGetMTests" configurationId="JUnit" />
     </history-entry>
@@ -930,9 +922,15 @@
     <history-entry file="TransactionTests - 2018.09.15 at 21h 14m 02s.xml">
       <configuration name="TransactionTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionTests - 2018.09.15 at 21h 17m 17s.xml">
+      <configuration name="TransactionTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTests - 2018.09.15 at 21h 17m 25s.xml">
+      <configuration name="TransactionTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106236000" />
+    <option name="totallyTimeSpent" value="107639000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -945,6 +943,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="66" y="23" width="1342" height="749" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33615384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -954,13 +953,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.46879756" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.45509893" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.45509893" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4003044" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.4003044" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32936507" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.45357686" />
@@ -1171,31 +1170,31 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
-          <line>27</line>
+          <line>29</line>
           <properties />
           <option name="timeStamp" value="129" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
-          <line>29</line>
+          <line>31</line>
           <properties />
           <option name="timeStamp" value="130" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
-          <line>28</line>
+          <line>30</line>
           <properties />
           <option name="timeStamp" value="131" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
-          <line>31</line>
+          <line>33</line>
           <properties />
           <option name="timeStamp" value="132" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
-          <line>22</line>
+          <line>24</line>
           <properties />
           <option name="timeStamp" value="133" />
         </line-breakpoint>
@@ -1225,7 +1224,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
-          <line>23</line>
+          <line>25</line>
           <properties />
           <option name="timeStamp" value="138" />
         </line-breakpoint>
@@ -1271,13 +1270,27 @@
           <properties />
           <option name="timeStamp" value="145" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
+          <line>13</line>
+          <properties />
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
-          <line>26</line>
+          <line>28</line>
           <properties class="Transaction" method="getTotal">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/Transaction.java</url>
+          <line>12</line>
+          <properties class="Transaction" method="scanItem">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="146" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1550,20 +1563,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#352#353#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="424">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
@@ -1571,16 +1588,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        <state relative-caret-position="317">
+          <caret line="82" column="45" selection-start-line="82" selection-start-column="45" selection-end-line="82" selection-end-column="45" />
           <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#352#353#0" expanded="true" />
-            <element signature="e#347#348#0" expanded="true" />
-            <element signature="e#383#384#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
