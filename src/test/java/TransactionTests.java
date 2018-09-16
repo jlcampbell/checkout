@@ -92,6 +92,20 @@ public class TransactionTests {
         double actual = transaction.getTotal();
         assertEquals(expected, actual, 0.01);
     }
+    @Test
+    public void whenTwoForOneSpecialAppliedTwoBreadsShouldReturn1(){
+        priceList = new PriceList();
+        priceList.addItem("bread loaf", 1, 0);
+        priceList.setSpecialXForY("bread loaf", 2, 1);
+        transaction.scanItem("bread loaf");
+        transaction.scanItem("bread loaf");
+        double expected = 1;
+        double actual = transaction.getTotal();
+    }
+    @Test
+    public void whenItemIsScannedByWeightTotalReturnsWeightTimesPriceOfItem(){
+        priceList = new PriceList();
+    }
 
 
 

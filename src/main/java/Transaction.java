@@ -42,11 +42,26 @@ public class Transaction {
         }
     }
 
+    private void addItemXForY(String name, Item item) {
+        ItemOnRecieptXforY itemOnRecieptXforY;
+        if (mItemTotals.containsKey(name)){
+            itemOnRecieptXforY = mItemTotalsXForY.get(name);
+            itemOnRecieptXforY.addItem();
+        }else {
+            itemOnRecieptXforY = new ItemOnRecieptXforY(item);
+            itemOnRecieptXforY.addItem();
+            mItemTotals.put(name, itemOnRecieptXforY);
+        }
+    }
+
     private void addItemToItemTotals(String name){
         Item item = mPriceList.getItem(name);
             if (item.getSpecialBuyNGetMForXPercentOff() != null){
                 addItemNGetM(name, item);
-            } else {
+            } else if(item.getSpecialXForYDollars() != null) {
+                addItemXForY(name, item);
+            }
+            else {
                 addItem(name, item);
             }
 
@@ -70,6 +85,9 @@ public class Transaction {
         }
         for (String name : mItemTotalsBuyNGetM.keySet()){
             total += mItemTotalsBuyNGetM.get(name).getTotal();
+        }
+        for (String name : mItemTotalsXForY.keySet()){
+            total += mItemTotalsXForY.get(name).getTotal();
         }
         return total;
     }

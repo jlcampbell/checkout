@@ -11,7 +11,7 @@ public class ItemOnReceiptXforYTests {
     public void setup(){
         priceList = new PriceList();
         priceList.addItem("bread loaf", 1, 0);
-        priceList.setXForYSpecial("bread loaf", 2, 1);
+        priceList.setSpecialXForY("bread loaf", 2, 1);
         bread = priceList.getItem("bread loaf");
         breadForThisOrder = new ItemOnRecieptXforY(bread);
     }

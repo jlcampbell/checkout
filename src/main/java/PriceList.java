@@ -35,7 +35,7 @@ public class PriceList {
 //        return item.getSpecialBuyNGetMForXPercentOff();
 //    }
 
-    public void setXForYSpecial(String name, int x, double y) {
+    public void setSpecialXForY(String name, int x, double y) {
         Item item = getItem(name);
         item.setSpecialXForYDollars(x,y);
         mItems.put(name, item);
