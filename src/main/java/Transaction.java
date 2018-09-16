@@ -3,10 +3,14 @@ import java.util.HashMap;
 public class Transaction {
 
     private HashMap<String, ItemOnReceipt> mItemTotals;
+    private HashMap<String, ItemOnReceiptBuyNGetM> mItemTotalsBuyNGetM;
+    private HashMap<String, ItemOnRecieptXforY> mItemTotalsXForY;
     private PriceList mPriceList;
 
     public Transaction(PriceList priceList){
         mItemTotals = new HashMap<>();
+        mItemTotalsBuyNGetM = new HashMap<>();
+        mItemTotalsXForY = new HashMap<>();
         mPriceList = priceList;
     }
 
@@ -14,22 +18,58 @@ public class Transaction {
         addItemToItemTotals(name);
     }
 
-    private void addItemToItemTotals(String name){
-        Item item = mPriceList.getItem(name);
+    private void addItemNGetM(String name, Item item){
+        ItemOnReceiptBuyNGetM itemOnReceiptBuyNGetM;
+        if(mItemTotalsBuyNGetM.containsKey(name)){
+            itemOnReceiptBuyNGetM = mItemTotalsBuyNGetM.get(name);
+            itemOnReceiptBuyNGetM.addItem();
+        } else {
+            itemOnReceiptBuyNGetM = new ItemOnReceiptBuyNGetM(item);
+            itemOnReceiptBuyNGetM.addItem();
+            mItemTotalsBuyNGetM.put(name, itemOnReceiptBuyNGetM);
+        }
+    }
+
+    private void addItem(String name, Item item){
+        ItemOnReceipt itemOnReceipt;
         if (mItemTotals.containsKey(name)){
-            ItemOnReceipt itemOnReceipt = mItemTotals.get(name);
+            itemOnReceipt = mItemTotals.get(name);
             itemOnReceipt.addItem();
         } else {
-            ItemOnReceipt itemOnReceipt = new ItemOnReceipt(item);
+            itemOnReceipt = new ItemOnReceipt(item);
             itemOnReceipt.addItem();
             mItemTotals.put(name, itemOnReceipt);
         }
+    }
+
+    private void addItemToItemTotals(String name){
+        Item item = mPriceList.getItem(name);
+            if (item.getSpecialBuyNGetMForXPercentOff() != null){
+                addItemNGetM(name, item);
+            } else {
+                addItem(name, item);
+            }
+
+//        ItemOnReceiptBuyNGetM itemOnReceipt;
+//
+//        if (mItemTotals.containsKey(name)){
+//            itemOnReceipt = mItemTotals.get(name);
+//            if (itemOnReceipt instanceof ItemOnReceiptBuyNGetM){
+//                itemOnReceipt.addItem();}
+//        } else {
+//            itemOnReceipt = new ItemOnReceiptBuyNGetM(item);
+//            itemOnReceipt.addItem();
+//            mItemTotals.put(name, itemOnReceipt);
+//        }
     }
 
     public double getTotal(){
         double total = 0;
         for (String name : mItemTotals.keySet()){
             total += mItemTotals.get(name).getTotal();
+        }
+        for (String name : mItemTotalsBuyNGetM.keySet()){
+            total += mItemTotalsBuyNGetM.get(name).getTotal();
         }
         return total;
     }

@@ -74,6 +74,7 @@ public class TransactionTests {
     }
     @Test
     public void testThatSpecialIsNotAppliedWhenOnlyOneItemOfEachTypeIsBought(){
+        setupTransactionWithSomeSpecials();
         //p = .5
         transaction.scanItem("banana");
         //p = 1
@@ -82,7 +83,15 @@ public class TransactionTests {
         double actual = transaction.getTotal();
         assertEquals(expected, actual, 0.01);
     }
-
+    @Test
+    public void whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents(){
+        setupTransactionWithSomeSpecials();
+        transaction.scanItem("banana");
+        transaction.scanItem("banana");
+        double expected = 0.75;
+        double actual = transaction.getTotal();
+        assertEquals(expected, actual, 0.01);
+    }
 
 
 

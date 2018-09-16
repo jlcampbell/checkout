@@ -25,7 +25,7 @@ public class Item {
     }
 //TODO refactor name
     public void setSpecialBuyNGetMForXPercentOff(int n, int m, int percentOffM) {
-        mSpecial = new SpecialBuyNGetMForXPercentOff(n, m, percentOffM);
+        mNforMSpecial = new SpecialBuyNGetMForXPercentOff(n, m, percentOffM);
     }
 
     public SpecialBuyNGetMForXPercentOff getSpecialBuyNGetMForXPercentOff(){
