@@ -13,6 +13,7 @@ public class PriceList {
     public int getNumberOfItems(){
         return mItems.size();
     }
+
     public void addItem(String name, double price, double markdown){
         Item temp = new Item(name, price, markdown);
         mItems.put(name, temp);

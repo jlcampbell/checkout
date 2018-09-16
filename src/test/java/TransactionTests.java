@@ -97,15 +97,26 @@ public class TransactionTests {
         priceList = new PriceList();
         priceList.addItem("bread loaf", 1, 0);
         priceList.setSpecialXForY("bread loaf", 2, 1);
+        transaction = new Transaction(priceList);
         transaction.scanItem("bread loaf");
         transaction.scanItem("bread loaf");
         double expected = 1;
         double actual = transaction.getTotal();
+        assertEquals(expected, actual, 0.01);
     }
-    @Test
-    public void whenItemIsScannedByWeightTotalReturnsWeightTimesPriceOfItem(){
-        priceList = new PriceList();
-    }
+//    @Test
+//    public void whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies(){
+//        priceList = new PriceList();
+//        priceList.addItem("pumpkin", 3, 0);
+//        priceList.setSpecialBuyNGetMForXPercentOff("pumpkin",1, 1, 50);
+//        transaction.scanItemByWeight("pumpkin", 1);
+//        transaction.scanItemByWeight("pumpkin", 1);
+//        double expected = 4.50;
+//        double actual = transaction.getTotal();
+//        assertEquals(expected, actual, 0.01);
+//
+//
+//    }
 
 
 

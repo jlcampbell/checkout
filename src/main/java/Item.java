@@ -37,7 +37,6 @@ public class Item {
     public void setSpecialXForYDollars(int x, double yDollars) {
 
         mXForYSpecial = new SpecialXForY(x, yDollars);
-        mSpecial = mXForYSpecial;
         }
 
     public SpecialXForY getSpecialXForYDollars(){

@@ -5,6 +5,8 @@ public class Transaction {
     private HashMap<String, ItemOnReceipt> mItemTotals;
     private HashMap<String, ItemOnReceiptBuyNGetM> mItemTotalsBuyNGetM;
     private HashMap<String, ItemOnRecieptXforY> mItemTotalsXForY;
+    private HashMap<String, ItemOnReceiptBuyNGetMForXPercentOffByWeight> mItemByWeight;
+
     private PriceList mPriceList;
 
     public Transaction(PriceList priceList){
@@ -16,6 +18,20 @@ public class Transaction {
 
     public void scanItem(String name) {
         addItemToItemTotals(name);
+    }
+
+    public void scanItemByWeight(String name, double weight) {
+        Item item = mPriceList.getItem(name);
+        ItemOnReceiptBuyNGetMForXPercentOffByWeight itemDiscountWeight;
+        if (mItemByWeight.containsKey(name)){
+            itemDiscountWeight = mItemByWeight.get(name);
+            itemDiscountWeight.addItem();
+        } else {
+            itemDiscountWeight = new ItemOnReceiptBuyNGetMForXPercentOffByWeight(item);
+            itemDiscountWeight.addItem(weight);
+            mItemByWeight.put(name, itemDiscountWeight);
+        }
+
     }
 
     private void addItemNGetM(String name, Item item){
@@ -44,13 +60,13 @@ public class Transaction {
 
     private void addItemXForY(String name, Item item) {
         ItemOnRecieptXforY itemOnRecieptXforY;
-        if (mItemTotals.containsKey(name)){
+        if (mItemTotalsXForY.containsKey(name)){
             itemOnRecieptXforY = mItemTotalsXForY.get(name);
             itemOnRecieptXforY.addItem();
         }else {
             itemOnRecieptXforY = new ItemOnRecieptXforY(item);
             itemOnRecieptXforY.addItem();
-            mItemTotals.put(name, itemOnRecieptXforY);
+            mItemTotalsXForY.put(name, itemOnRecieptXforY);
         }
     }
 
@@ -64,18 +80,6 @@ public class Transaction {
             else {
                 addItem(name, item);
             }
-
-//        ItemOnReceiptBuyNGetM itemOnReceipt;
-//
-//        if (mItemTotals.containsKey(name)){
-//            itemOnReceipt = mItemTotals.get(name);
-//            if (itemOnReceipt instanceof ItemOnReceiptBuyNGetM){
-//                itemOnReceipt.addItem();}
-//        } else {
-//            itemOnReceipt = new ItemOnReceiptBuyNGetM(item);
-//            itemOnReceipt.addItem();
-//            mItemTotals.put(name, itemOnReceipt);
-//        }
     }
 
     public double getTotal(){
@@ -91,16 +95,5 @@ public class Transaction {
         }
         return total;
     }
-
-//    public void scanItemByWeight(String name, double weight) {
-//        Item item = mPriceList.getItem(name);
-//        double markdown = item.getMarkdown();
-//        double cost = mPriceList.getItem(name).getPrice()*weight;
-//        double costAfterMarkdown = cost - markdown;
-//        mTotal += costAfterMarkdown;
-//    }
-
-
-
 
 }
