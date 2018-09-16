@@ -18,12 +18,12 @@ public class TransactionTests {
         setupTransaction();
         assertEquals(0, transaction.getTotal(), 0.01);
     }
-//    @Test
-//    public void scan1DollarItemTotalIncreasesBy1(){
-//        setupTransaction();
-//        transaction.scanItem("bread loaf");
-//        assertEquals(1, transaction.getTotal(), 0.01);
-//    }
+    @Test
+    public void scan1DollarItemTotalIncreasesBy1(){
+        setupTransaction();
+        transaction.scanItem("bread loaf");
+        assertEquals(1, transaction.getTotal(), 0.01);
+    }
 //    @Test
 //    //price is 50c so 2x.5 = 1
 //    public void scanItemByWeightIncreasesTotalByWeightxPrice(){

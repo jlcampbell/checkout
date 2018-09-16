@@ -11,15 +11,6 @@ public class Transaction {
     }
 
     public void scanItem(String name) {
-        //get pricing
-        Item item = mPriceList.getItem(name);
-
-        //get specials from price list
-        Special special = mPriceList.getSpecial(name);
-        //calculate new prices
-
-
-
         addItemToItemTotals(name);
     }
 
@@ -29,7 +20,9 @@ public class Transaction {
             ItemOnReceipt itemOnReceipt = mItemTotals.get(name);
             itemOnReceipt.addItem();
         } else {
-            mItemTotals.put(name, new ItemOnReceipt(item));
+            ItemOnReceipt itemOnReceipt = new ItemOnReceipt(item);
+            itemOnReceipt.addItem();
+            mItemTotals.put(name, itemOnReceipt);
         }
     }
 

@@ -1,6 +1,7 @@
 public class ItemOnReceipt {
     protected Double mOriginalPrice;
     protected Double mMarkdown;
+    protected int mQuantity;
     protected Item mItem;
     public ItemOnReceipt(Item item){
         mOriginalPrice = item.getPrice();
@@ -8,9 +9,12 @@ public class ItemOnReceipt {
         mItem = item;
     }
     public void addItem(){
-
+        mQuantity += 1;
+    }
+    private double getPriceMinusMarkdown(){
+        return mOriginalPrice-mMarkdown;
     }
     public double getTotal(){
-        return 0.00;
+        return mQuantity*getPriceMinusMarkdown();
     }
 }
