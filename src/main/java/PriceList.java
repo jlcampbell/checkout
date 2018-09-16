@@ -30,10 +30,10 @@ public class PriceList {
         mItems.put(name, item);
     }
 
-    public SpecialBuyNGetMForXPercentOff getSpecialBuyNGetMForXPercentOff(String name) {
-        Item item = getItem(name);
-        return item.getSpecialBuyNGetMForXPercentOff();
-    }
+//    public SpecialBuyNGetMForXPercentOff getSpecialBuyNGetMForXPercentOff(String name) {
+//        Item item = getItem(name);
+//        return item.getSpecialBuyNGetMForXPercentOff();
+//    }
 
     public void setXForYSpecial(String name, int x, double y) {
         Item item = getItem(name);
@@ -41,9 +41,14 @@ public class PriceList {
         mItems.put(name, item);
     }
 
-    public SpecialXForY getXForYSpecial(String name) {
-        return getItem(name).getSpecialXForYDollars();
+    public Special getSpecial(String name){
+        Item item = getItem(name);
+        return item.getSpecial();
     }
+
+//    public SpecialXForY getXForYSpecial(String name) {
+//        return getItem(name).getSpecialXForYDollars();
+//    }
 
 //    public void setBuyKGetJEqualorLessForXOffSpecial(String name, int k, int j, int x) {
 //        Item item = getItem(name);

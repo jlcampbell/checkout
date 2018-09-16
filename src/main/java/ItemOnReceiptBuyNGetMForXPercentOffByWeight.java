@@ -19,6 +19,7 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight extends ItemOnReceipt {
         mMarkdown = item.getMarkdown();
         mSpecial = item.getSpecialBuyNGetMForXPercentOff();
 
+
         mWeights = new ArrayList<>();
     }
 

@@ -1,55 +1,53 @@
 import java.util.HashMap;
 
 public class Transaction {
-    private double mTotal;
-    private HashMap<String, Integer> mItemTotals;
+
+    private HashMap<String, ItemOnReceipt> mItemTotals;
     private PriceList mPriceList;
 
     public Transaction(PriceList priceList){
-        mTotal = 0;
-        //mItemTotals = new HashMap<String, Integer>();
+        mItemTotals = new HashMap<>();
         mPriceList = priceList;
     }
-
-    public double getTotal(){
-        return mTotal;
-    }
-
-
 
     public void scanItem(String name) {
         //get pricing
         Item item = mPriceList.getItem(name);
-        double markdown = item.getMarkdown();
-        double cost = item.getPrice();
-        //calculate price after markdown
-        double costAfterMarkdown = cost-markdown;
+
         //get specials from price list
-        Special special = mPriceList.getSpecialBuyNGetMForXPercentOff(name);
+        Special special = mPriceList.getSpecial(name);
         //calculate new prices
 
-        //update special prices
-        //update total based on specials
-        mTotal += costAfterMarkdown;
+
+
         addItemToItemTotals(name);
     }
 
     private void addItemToItemTotals(String name){
+        Item item = mPriceList.getItem(name);
         if (mItemTotals.containsKey(name)){
-            int value = mItemTotals.get(name);
-            mItemTotals.put(name, value+1);
+            ItemOnReceipt itemOnReceipt = mItemTotals.get(name);
+            itemOnReceipt.addItem();
         } else {
-            mItemTotals.put(name, 1);
+            mItemTotals.put(name, new ItemOnReceipt(item));
         }
     }
 
-    public void scanItemByWeight(String name, double weight) {
-        Item item = mPriceList.getItem(name);
-        double markdown = item.getMarkdown();
-        double cost = mPriceList.getItem(name).getPrice()*weight;
-        double costAfterMarkdown = cost - markdown;
-        mTotal += costAfterMarkdown;
+    public double getTotal(){
+        double total = 0;
+        for (String name : mItemTotals.keySet()){
+            total += mItemTotals.get(name).getTotal();
+        }
+        return total;
     }
+
+//    public void scanItemByWeight(String name, double weight) {
+//        Item item = mPriceList.getItem(name);
+//        double markdown = item.getMarkdown();
+//        double cost = mPriceList.getItem(name).getPrice()*weight;
+//        double costAfterMarkdown = cost - markdown;
+//        mTotal += costAfterMarkdown;
+//    }
 
 
 

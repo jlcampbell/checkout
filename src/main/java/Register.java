@@ -17,9 +17,9 @@ public class Register {
         mTransaction.scanItem(name);
     }
     //TODO combine scan methods
-    public void scanItemByWeight(String name, Double weight){
-        mTransaction.scanItemByWeight(name, weight);
-    }
+//    public void scanItemByWeight(String name, Double weight){
+//        mTransaction.scanItemByWeight(name, weight);
+//    }
     public double getTotal(){
         return mTransaction.getTotal();
     }
