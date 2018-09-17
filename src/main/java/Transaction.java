@@ -13,6 +13,7 @@ public class Transaction {
         mItemTotals = new HashMap<>();
         mItemTotalsBuyNGetM = new HashMap<>();
         mItemTotalsXForY = new HashMap<>();
+        mItemByWeight = new HashMap<>();
         mPriceList = priceList;
     }
 
@@ -25,7 +26,7 @@ public class Transaction {
         ItemOnReceiptBuyNGetMForXPercentOffByWeight itemDiscountWeight;
         if (mItemByWeight.containsKey(name)){
             itemDiscountWeight = mItemByWeight.get(name);
-            itemDiscountWeight.addItem();
+            itemDiscountWeight.addItem(weight);
         } else {
             itemDiscountWeight = new ItemOnReceiptBuyNGetMForXPercentOffByWeight(item);
             itemDiscountWeight.addItem(weight);
@@ -92,6 +93,9 @@ public class Transaction {
         }
         for (String name : mItemTotalsXForY.keySet()){
             total += mItemTotalsXForY.get(name).getTotal();
+        }
+        for (String name : mItemByWeight.keySet()){
+            total += mItemByWeight.get(name).getTotal();
         }
         return total;
     }
