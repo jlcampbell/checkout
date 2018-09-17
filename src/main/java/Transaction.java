@@ -22,7 +22,14 @@ public class Transaction {
     }
 
     public void scanItemByWeight(String name, double weight) {
+        addItemToItemTotalsByWeight(name, weight);
+    }
+
+    private void addItemToItemTotalsByWeight(String name, double weight){
         Item item = mPriceList.getItem(name);
+        addItemWeightSpecial(name, item, weight);
+    }
+    private void addItemWeightSpecial(String name, Item item, double weight){
         ItemOnReceiptBuyNGetMForXPercentOffByWeight itemDiscountWeight;
         if (mItemByWeight.containsKey(name)){
             itemDiscountWeight = mItemByWeight.get(name);
@@ -32,7 +39,6 @@ public class Transaction {
             itemDiscountWeight.addItem(weight);
             mItemByWeight.put(name, itemDiscountWeight);
         }
-
     }
 
     private void addItemNGetM(String name, Item item){

@@ -17,8 +17,10 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight extends ItemOnReceipt {
         super(item);
         mOriginalPrice = item.getPrice();
         mMarkdown = item.getMarkdown();
-        mSpecial = item.getSpecialBuyNGetMForXPercentOff();
+        if (item.getSpecialBuyNGetMForXPercentOff() != null){
+            mSpecial = item.getSpecialBuyNGetMForXPercentOff();
 
+        }
 
         mWeights = new ArrayList<>();
     }
@@ -42,6 +44,22 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight extends ItemOnReceipt {
 
     @Override
     public double getTotal() {
+        double total;
+        if (mSpecial != null){
+            total = getTotalSpecialIsValid();
+        } else {
+            total = getTotalNullSpecial();
+        }
+        return total;
+    }
+    private double getTotalNullSpecial(){
+        double total = 0;
+        for (double weight : mWeights){
+            total += getOriginalPriceMinusMarkdown(weight);
+        }
+        return total;
+    }
+    private double getTotalSpecialIsValid(){
         mNumberYouMustBuy = mSpecial.getNumberThatMustBePurchased();
         mNumberYouGetAtSpecial = mSpecial.getNumberDiscounted();
 

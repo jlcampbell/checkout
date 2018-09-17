@@ -24,13 +24,14 @@ public class TransactionTests {
         transaction.scanItem("bread loaf");
         assertEquals(1, transaction.getTotal(), 0.01);
     }
-//    @Test
-//    //price is 50c so 2x.5 = 1
-//    public void scanItemByWeightIncreasesTotalByWeightxPrice(){
-//        setupTransaction();
-//        transaction.scanItemByWeight("banana", 2);
-//        assertEquals(1, transaction.getTotal(), 0.1);
-//    }
+    @Test
+    //scan item by weight, no special
+    //price is 50c so 2x.5 = 1
+    public void scanItemByWeightIncreasesTotalByWeightxPrice(){
+        setupTransaction();
+        transaction.scanItemByWeight("banana", 2);
+        assertEquals(1, transaction.getTotal(), 0.1);
+    }
 //    @Test
 //    public void twoTwoPoundBananasTotal2Dollars(){
 //        setupTransaction();
