@@ -17,4 +17,8 @@ public class ItemOnReceipt {
     public double getTotal(){
         return mQuantity*getPriceMinusMarkdown();
     }
+
+    public void removeItem() {
+        mQuantity -= 1;
+    }
 }

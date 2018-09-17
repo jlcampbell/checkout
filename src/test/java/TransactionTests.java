@@ -117,6 +117,17 @@ public class TransactionTests {
         double actual = transaction.getTotal();
         assertEquals(expected, actual, 0.01);
     }
+    //removeItem - generic item with no specials and no weight
+    @Test
+    public void totalAfterItemAddedAndRemovedReturns0(){
+        priceList = new PriceList();
+        priceList.addItem("candy", 1.5, 0);
+        transaction = new Transaction(priceList);
+        transaction.scanItem("candy");
+        assertEquals(1.50, transaction.getTotal(), 0.01);
+        transaction.removeItem("candy");
+        assertEquals(0, transaction.getTotal(), 0.01);
+    }
 
 
 

@@ -106,4 +106,11 @@ public class Transaction {
         return total;
     }
 
+    public void removeItem(String name) {
+        if (mItemTotals.keySet().contains(name)){
+            ItemOnReceipt itemOnReceipt = mItemTotals.get(name);
+            itemOnReceipt.removeItem();
+        }
+
+    }
 }

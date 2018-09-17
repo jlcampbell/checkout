@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TransactionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransactionTests.java" afterDir="false" />
     </list>
@@ -74,13 +74,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="16901" />
+          <entry key="java" value="17127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="16901" />
+          <entry key="JAVA" value="17127" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -109,11 +109,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+            <state relative-caret-position="294">
+              <caret line="111" column="31" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
               <folding>
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#348#349#0" expanded="true" />
@@ -148,11 +148,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
-              <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+            <state relative-caret-position="311">
+              <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -175,8 +175,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding>
                 <element signature="e#325#326#0" expanded="true" />
                 <element signature="e#355#356#0" expanded="true" />
@@ -184,6 +184,8 @@
                 <element signature="e#446#447#0" expanded="true" />
                 <element signature="e#476#477#0" expanded="true" />
                 <element signature="e#532#533#0" expanded="true" />
+                <element signature="e#564#565#0" expanded="true" />
+                <element signature="e#590#591#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -595,13 +597,13 @@
         <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Register.java" />
         <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" />
         <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptXforYTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/PriceList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Item.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TransactionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TransactionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" />
       </list>
     </option>
   </component>
@@ -733,23 +735,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionTests">
+  <component name="RunManager" selected="JUnit.TransactionTests.totalAfterItemAddedAndRemovedReturns0">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" />
       <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.getTotalOfThreeItemsWhereSpecialIsAppliedToOne" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" />
-      <option name="METHOD_NAME" value="getTotalOfThreeItemsWhereSpecialIsAppliedToOne" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -814,6 +806,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionTests.totalAfterItemAddedAndRemovedReturns0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransactionTests" />
+      <option name="METHOD_NAME" value="totalAfterItemAddedAndRemovedReturns0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransactionTests.whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -851,19 +853,19 @@
       <item itemvalue="JUnit.SpecialTests" />
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests" />
-      <item itemvalue="JUnit.ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.getTotalOfThreeItemsWhereSpecialIsAppliedToOne" />
       <item itemvalue="JUnit.TransactionTests.whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents" />
       <item itemvalue="JUnit.TransactionTests.whenTwoForOneSpecialAppliedTwoBreadsShouldReturn1" />
       <item itemvalue="JUnit.TransactionTests.whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies" />
       <item itemvalue="JUnit.TransactionTests.scanItemByWeightIncreasesTotalByWeightxPrice" />
+      <item itemvalue="JUnit.TransactionTests.totalAfterItemAddedAndRemovedReturns0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransactionTests.totalAfterItemAddedAndRemovedReturns0" />
         <item itemvalue="JUnit.TransactionTests.scanItemByWeightIncreasesTotalByWeightxPrice" />
         <item itemvalue="JUnit.TransactionTests.whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies" />
         <item itemvalue="JUnit.TransactionTests.whenTwoForOneSpecialAppliedTwoBreadsShouldReturn1" />
         <item itemvalue="JUnit.TransactionTests.whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents" />
-        <item itemvalue="JUnit.ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.getTotalOfThreeItemsWhereSpecialIsAppliedToOne" />
       </list>
     </recent_temporary>
   </component>
@@ -879,12 +881,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransactionTests - 2018.09.16 at 00h 19m 11s.xml">
-      <configuration name="TransactionTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTests - 2018.09.16 at 00h 20m 06s.xml">
-      <configuration name="TransactionTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransactionTests - 2018.09.16 at 21h 30m 45s.xml">
       <configuration name="TransactionTests" configurationId="JUnit" />
     </history-entry>
@@ -909,9 +905,15 @@
     <history-entry file="TransactionTests_scanItemByWeightIncreasesTotalByWeightxPrice - 2018.09.16 at 22h 01m 30s.xml">
       <configuration name="TransactionTests.scanItemByWeightIncreasesTotalByWeightxPrice" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionTests_scanItemByWeightIncreasesTotalByWeightxPrice - 2018.09.16 at 22h 35m 27s.xml">
+      <configuration name="TransactionTests.scanItemByWeightIncreasesTotalByWeightxPrice" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTests - 2018.09.16 at 22h 35m 43s.xml">
+      <configuration name="TransactionTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="120328000" />
+    <option name="totallyTimeSpent" value="121229000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -934,13 +936,13 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.42617962" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.37290716" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.37290716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.33637747" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2526636" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32936507" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.45357686" />
@@ -1657,16 +1659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="277">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-          <folding>
-            <element signature="e#1246#1247#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -1677,27 +1669,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Item.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="27" column="37" selection-start-line="27" selection-start-column="37" selection-end-line="27" selection-end-column="37" />
+        <state relative-caret-position="277">
+          <caret line="42" selection-start-line="42" selection-end-line="42" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-          <folding>
-            <element signature="e#325#326#0" expanded="true" />
-            <element signature="e#355#356#0" expanded="true" />
-            <element signature="e#399#400#0" expanded="true" />
-            <element signature="e#446#447#0" expanded="true" />
-            <element signature="e#476#477#0" expanded="true" />
-            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#1246#1247#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1720,13 +1697,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
+        <state relative-caret-position="294">
+          <caret line="111" column="31" lean-forward="true" selection-start-line="111" selection-start-column="31" selection-end-line="111" selection-end-column="31" />
           <folding>
             <element signature="e#307#308#0" expanded="true" />
             <element signature="e#348#349#0" expanded="true" />
             <element signature="e#771#772#0" expanded="true" />
             <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#325#326#0" expanded="true" />
+            <element signature="e#355#356#0" expanded="true" />
+            <element signature="e#399#400#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#476#477#0" expanded="true" />
+            <element signature="e#532#533#0" expanded="true" />
+            <element signature="e#564#565#0" expanded="true" />
+            <element signature="e#590#591#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="127" column="23" selection-start-line="127" selection-start-column="23" selection-end-line="127" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
