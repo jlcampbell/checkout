@@ -113,6 +113,9 @@ public class Transaction {
         } else if (mItemTotalsBuyNGetM.keySet().contains(name)){
             ItemOnReceiptBuyNGetM itemOnReceiptBuyNGetM = mItemTotalsBuyNGetM.get(name);
             itemOnReceiptBuyNGetM.removeItem();
+        } else if (mItemTotalsXForY.keySet().contains(name)){
+            ItemOnRecieptXforY itemOnRecieptXforY = mItemTotalsXForY.get(name);
+            itemOnRecieptXforY.removeItem();
         }
 
     }

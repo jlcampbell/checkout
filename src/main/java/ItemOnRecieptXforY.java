@@ -15,6 +15,9 @@ public class ItemOnRecieptXforY extends ItemOnReceipt {
     }
 
     @Override
+    public void removeItem() { mQuantity -= 1; }
+
+    @Override
     public double getTotal(){
         int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
         double specialPrice = mSpecial.getPriceForSet();
