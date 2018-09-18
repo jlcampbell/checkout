@@ -128,6 +128,22 @@ public class TransactionTests {
         transaction.removeItem("candy");
         assertEquals(0, transaction.getTotal(), 0.01);
     }
+    @Test
+    public void itemWithMForNSpecialCanBeRemoved(){
+        priceList = new PriceList();
+        priceList.addItem("candy", 1.5, 0);
+        priceList.setSpecialBuyNGetMForXPercentOff("candy", 1,1, 50);
+        transaction = new Transaction(priceList);
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        assertEquals(2.25, transaction.getTotal(), 0.01);
+        transaction.removeItem("candy");
+        assertEquals(1.50, transaction.getTotal(), 0.01);
+    }
+//    @Test
+//    public void removingItemInvalidatesSpecial(){
+//
+//    }
 
 
 

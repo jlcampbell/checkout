@@ -22,6 +22,11 @@ public class ItemOnReceiptBuyNGetM extends ItemOnReceipt{
        mQuantity += 1;
     }
 
+    @Override
+    public void removeItem() {
+        mQuantity -= 1;
+    }
+
     private double[] getPriceArray(){
         int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
         int quantityToBeGottenAtDiscount = mSpecial.getNumberDiscounted();
@@ -49,6 +54,7 @@ public class ItemOnReceiptBuyNGetM extends ItemOnReceipt{
         }
         return total;
     }
+
 
     public double calculateSpecialPrice(){
         double priceAfterMarkdown = mOriginalPrice - mMarkdown;

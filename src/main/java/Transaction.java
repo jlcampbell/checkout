@@ -110,6 +110,9 @@ public class Transaction {
         if (mItemTotals.keySet().contains(name)){
             ItemOnReceipt itemOnReceipt = mItemTotals.get(name);
             itemOnReceipt.removeItem();
+        } else if (mItemTotalsBuyNGetM.keySet().contains(name)){
+            ItemOnReceiptBuyNGetM itemOnReceiptBuyNGetM = mItemTotalsBuyNGetM.get(name);
+            itemOnReceiptBuyNGetM.removeItem();
         }
 
     }
