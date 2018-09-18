@@ -30,6 +30,8 @@ public class ItemOnReceiptBuyNGetM extends ItemOnReceipt{
     private double[] getPriceArray(){
         int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
         int quantityToBeGottenAtDiscount = mSpecial.getNumberDiscounted();
+        int limit = (mSpecial.hasLimit()) ? mSpecial.getmLimit() : 999;
+        int limitCounter = 0;
         int counter = 0;
         double[] priceArray = new double[mQuantity];
         for (int i = 0; i<mQuantity; i++){
@@ -38,10 +40,14 @@ public class ItemOnReceiptBuyNGetM extends ItemOnReceipt{
             }
             if (counter<quantityToBePurchasedToApplySpecial){
                 priceArray[i]=mOriginalPrice-mMarkdown;
-            }else{
+            }else {
                 priceArray[i]=calculateSpecialPrice();
             }
             counter += 1;
+            limitCounter += 1;
+            if (limitCounter > limit){
+                counter = 0;
+            }
         }
         return priceArray;
     }

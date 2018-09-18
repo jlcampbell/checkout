@@ -28,6 +28,10 @@ public class Item {
         mNforMSpecial = new SpecialBuyNGetMForXPercentOff(n, m, percentOffM);
     }
 
+    public void setSpecialBuyNGetMForXPercentOff(int n, int m, int percentOffM, int limit) {
+        mNforMSpecial = new SpecialBuyNGetMForXPercentOff(n, m, percentOffM, limit);
+    }
+
     public SpecialBuyNGetMForXPercentOff getSpecialBuyNGetMForXPercentOff(){
         return mNforMSpecial;
     }

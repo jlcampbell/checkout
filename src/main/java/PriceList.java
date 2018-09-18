@@ -30,6 +30,11 @@ public class PriceList {
         item.setSpecialBuyNGetMForXPercentOff(n, m, percentOffM);
         mItems.put(name, item);
     }
+    public void setSpecialBuyNGetMForXPercentOff(String name, int n, int m, int percentOffM, int limit) {
+        Item item = getItem(name);
+        item.setSpecialBuyNGetMForXPercentOff(n, m, percentOffM, limit);
+        mItems.put(name, item);
+    }
 
 //    public SpecialBuyNGetMForXPercentOff getSpecialBuyNGetMForXPercentOff(String name) {
 //        Item item = getItem(name);

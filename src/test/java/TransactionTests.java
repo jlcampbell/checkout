@@ -165,6 +165,35 @@ public class TransactionTests {
         transaction.removeItem("candy");
         assertEquals(1, transaction.getTotal(), 0.01);
     }
+    @Test
+    public void specialLimitSupportedBuyNGetM(){
+        priceList = new PriceList();
+        priceList.addItem("candy", 1, 0);
+        priceList.setSpecialBuyNGetMForXPercentOff("candy", 1, 1, 50, 2);
+        transaction = new Transaction(priceList);
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        assertEquals(3.50, transaction.getTotal(), 0.01);
+    }
+    @Test
+    public void specialLimitSupportedBuyXforY(){
+        priceList = new PriceList();
+        priceList.addItem("candy", 1, 0);
+        priceList.setSpecialXForY("candy", 3, 1);
+        transaction = new Transaction(priceList);
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        transaction.scanItem("candy");
+        assertEquals(2, transaction.getTotal(), 0.01);
+        transaction.scanItem("candy");
+        assertEquals(3, transaction.getTotal(), 0.01);
+
+    }
 
 
 
