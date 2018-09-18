@@ -29,6 +29,11 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight extends ItemOnReceipt {
         mWeights.add(weight);
     }
 
+    public void removeItem(){
+        int size = mWeights.size();
+        mWeights.remove(size-1);
+    }
+
     public int getNumberOfItems() {
         return mWeights.size();
     }

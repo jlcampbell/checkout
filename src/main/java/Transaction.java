@@ -116,6 +116,8 @@ public class Transaction {
         } else if (mItemTotalsXForY.keySet().contains(name)){
             ItemOnRecieptXforY itemOnRecieptXforY = mItemTotalsXForY.get(name);
             itemOnRecieptXforY.removeItem();
+        } else if (mItemByWeight.keySet().contains(name)){
+            mItemByWeight.get(name).removeItem();
         }
 
     }

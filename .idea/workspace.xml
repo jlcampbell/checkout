@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Transaction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/TransactionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransactionTests.java" afterDir="false" />
     </list>
@@ -58,7 +58,7 @@
           <entry key="class" value="1" />
           <entry key="gradle" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="82" />
+          <entry key="java" value="83" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
@@ -67,20 +67,20 @@
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="82" />
+          <entry key="JAVA" value="83" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="17661" />
+          <entry key="java" value="17880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="17661" />
+          <entry key="JAVA" value="17880" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -94,13 +94,25 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
+            <state relative-caret-position="302">
+              <caret line="119" column="49" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
               <folding>
                 <element signature="e#307#308#0" expanded="true" />
                 <element signature="e#348#349#0" expanded="true" />
                 <element signature="e#771#772#0" expanded="true" />
                 <element signature="e#828#829#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="256">
+              <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -127,11 +139,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="153" column="54" lean-forward="true" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+            <state relative-caret-position="206">
+              <caret line="159" column="70" selection-start-line="159" selection-start-column="70" selection-end-line="159" selection-end-column="70" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -593,12 +605,12 @@
         <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptXforYTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/PriceList.java" />
         <option value="$PROJECT_DIR$/src/main/java/Item.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java" />
         <option value="$PROJECT_DIR$/src/test/java/TransactionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" />
       </list>
     </option>
   </component>
@@ -730,7 +742,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionTests.itemWithXForYSpecialCanBeRemoved">
+  <component name="RunManager" selected="JUnit.TransactionTests.itemWithMForNSpecialScannedByWeightCanBeRemoved">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -801,6 +813,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TransactionTests.itemWithMForNSpecialScannedByWeightCanBeRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TransactionTests" />
+      <option name="METHOD_NAME" value="itemWithMForNSpecialScannedByWeightCanBeRemoved" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransactionTests.itemWithXForYSpecialCanBeRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -831,16 +853,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionTests.whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TransactionTests" />
-      <option name="METHOD_NAME" value="whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.TransactionTests" />
       <item itemvalue="JUnit.ItemOnReceiptTests" />
@@ -848,19 +860,19 @@
       <item itemvalue="JUnit.SpecialTests" />
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests" />
-      <item itemvalue="JUnit.TransactionTests.whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies" />
       <item itemvalue="JUnit.TransactionTests.scanItemByWeightIncreasesTotalByWeightxPrice" />
       <item itemvalue="JUnit.TransactionTests.totalAfterItemAddedAndRemovedReturns0" />
       <item itemvalue="JUnit.TransactionTests.itemWithMForNSpecialCanBeRemoved" />
       <item itemvalue="JUnit.TransactionTests.itemWithXForYSpecialCanBeRemoved" />
+      <item itemvalue="JUnit.TransactionTests.itemWithMForNSpecialScannedByWeightCanBeRemoved" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TransactionTests.itemWithMForNSpecialScannedByWeightCanBeRemoved" />
         <item itemvalue="JUnit.TransactionTests.itemWithXForYSpecialCanBeRemoved" />
         <item itemvalue="JUnit.TransactionTests.itemWithMForNSpecialCanBeRemoved" />
         <item itemvalue="JUnit.TransactionTests.totalAfterItemAddedAndRemovedReturns0" />
         <item itemvalue="JUnit.TransactionTests.scanItemByWeightIncreasesTotalByWeightxPrice" />
-        <item itemvalue="JUnit.TransactionTests.whenItemsScannedByWeightTotalReturnsWeightTimesPriceOfItemAndSpecialApplies" />
       </list>
     </recent_temporary>
   </component>
@@ -876,15 +888,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TransactionTests_scanItemByWeightIncreasesTotalByWeightxPrice - 2018.09.16 at 22h 35m 27s.xml">
-      <configuration name="TransactionTests.scanItemByWeightIncreasesTotalByWeightxPrice" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTests - 2018.09.16 at 22h 35m 43s.xml">
-      <configuration name="TransactionTests" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TransactionTests_totalAfterItemAddedAndRemovedReturns0 - 2018.09.16 at 22h 50m 41s.xml">
-      <configuration name="TransactionTests.totalAfterItemAddedAndRemovedReturns0" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TransactionTests - 2018.09.17 at 21h 24m 26s.xml">
       <configuration name="TransactionTests" configurationId="JUnit" />
     </history-entry>
@@ -906,9 +909,18 @@
     <history-entry file="TransactionTests_itemWithXForYSpecialCanBeRemoved - 2018.09.17 at 21h 41m 38s.xml">
       <configuration name="TransactionTests.itemWithXForYSpecialCanBeRemoved" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionTests_itemWithXForYSpecialCanBeRemoved - 2018.09.17 at 21h 46m 11s.xml">
+      <configuration name="TransactionTests.itemWithXForYSpecialCanBeRemoved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTests_itemWithXForYSpecialCanBeRemoved - 2018.09.17 at 21h 54m 37s.xml">
+      <configuration name="TransactionTests.itemWithXForYSpecialCanBeRemoved" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTests_itemWithMForNSpecialScannedByWeightCanBeRemoved - 2018.09.17 at 21h 54m 49s.xml">
+      <configuration name="TransactionTests.itemWithMForNSpecialScannedByWeightCanBeRemoved" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="123669000" />
+    <option name="totallyTimeSpent" value="124425000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -930,7 +942,7 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23439878" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.26331812" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37290716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -1633,22 +1645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="52" column="21" selection-start-line="52" selection-start-column="21" selection-end-line="52" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#864#865#0" expanded="true" />
-            <element signature="e#900#901#0" expanded="true" />
-            <element signature="e#937#938#0" expanded="true" />
-            <element signature="e#975#976#0" expanded="true" />
-            <element signature="e#1217#1218#0" expanded="true" />
-            <element signature="e#1273#1274#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceipt.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
@@ -1690,19 +1686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="117" column="44" selection-start-line="117" selection-start-column="44" selection-end-line="117" selection-end-column="44" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1712,8 +1695,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="153" column="54" lean-forward="true" selection-start-line="153" selection-start-column="54" selection-end-line="153" selection-end-column="54" />
+        <state relative-caret-position="206">
+          <caret line="159" column="70" selection-start-line="159" selection-start-column="70" selection-end-line="159" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="119" column="49" selection-start-line="119" selection-start-column="49" selection-end-line="119" selection-end-column="49" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

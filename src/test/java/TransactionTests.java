@@ -153,6 +153,18 @@ public class TransactionTests {
         transaction.removeItem("candy");
         assertEquals(2, transaction.getTotal(), 0.01);
     }
+    @Test
+    public void itemWithMForNSpecialScannedByWeightCanBeRemoved(){
+        priceList = new PriceList();
+        priceList.addItem("candy", 1, 0);
+        priceList.setSpecialBuyNGetMForXPercentOff("candy", 1, 1, 50);
+        transaction = new Transaction(priceList);
+        transaction.scanItemByWeight("candy", 1);
+        transaction.scanItemByWeight("candy", 1);
+        assertEquals(1.5, transaction.getTotal(), 0.01);
+        transaction.removeItem("candy");
+        assertEquals(1, transaction.getTotal(), 0.01);
+    }
 
 
 
