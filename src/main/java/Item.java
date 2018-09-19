@@ -23,7 +23,6 @@ public class Item {
     public double getMarkdown(){
         return mMarkdown;
     }
-//TODO refactor name
     public void setSpecialBuyNGetMForXPercentOff(int n, int m, int percentOffM) {
         mNforMSpecial = new SpecialBuyNGetMForXPercentOff(n, m, percentOffM);
     }

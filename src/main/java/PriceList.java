@@ -23,7 +23,6 @@ public class PriceList {
     public Item getItem(String name) {
         return mItems.get(name);
     }
-//TODO consider refactor so pricelist only contains CRUD for item
 
     public void setSpecialBuyNGetMForXPercentOff(String name, int n, int m, int percentOffM) {
         Item item = getItem(name);
@@ -62,14 +61,5 @@ public class PriceList {
         return getItem(name).getSpecialXForYDollars();
     }
 
-//    public void setBuyKGetJEqualorLessForXOffSpecial(String name, int k, int j, int x) {
-//        Item item = getItem(name);
-//        item.setBuyKGetJEqualOrLessXOffSpecial(k, j, x);
-//        mItems.put(name, item);
-//    }
-//
-//    public HashMap<String, Integer> getKJXSpecial(String name) {
-//        return getItem(name).getBuyKGetJEqualOrLessXOffSpecial();
-//    }
 
 }
