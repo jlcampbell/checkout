@@ -93,6 +93,17 @@ public class Tests {
         register.scanItem("banana");
         assertEquals(1, register.getTotal(), 0.01);
     }
+    @Test
+    public void MforNAtXPercentOffSpecialCanBeAppliedToItemByWeight(){
+        setupRegister();
+        register.addNewItemToPriceList("banana", 1, 0);
+        register.addBuyNGetMForXPercentSpecialToItemInPriceList("banana", 2, 1, 50);
+        register.startTransaction();
+        register.scanItemByWeight("banana", 1.0);
+        register.scanItemByWeight("banana", 1.0);
+        register.scanItemByWeight("banana", 1.0);
+        assertEquals(2.50, register.getTotal(), 0.01);
+    }
 //n get m limit
 //x for y limit
 //n for m weight
