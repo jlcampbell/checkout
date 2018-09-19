@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/PriceList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/PriceList.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
@@ -74,13 +73,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="20425" />
+          <entry key="java" value="20709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="20425" />
+          <entry key="JAVA" value="20709" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -92,37 +91,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="92" selection-start-line="92" selection-end-line="92" />
-              <folding>
-                <element signature="e#307#308#0" expanded="true" />
-                <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#771#772#0" expanded="true" />
-                <element signature="e#828#829#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+            <state relative-caret-position="296">
+              <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
@@ -166,8 +138,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="329">
-              <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+            <state relative-caret-position="358">
+              <caret line="82" column="53" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2529#2530#0" expanded="true" />
@@ -721,7 +693,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.whenItemAddedAndThenRemovedTotalIsZero">
+  <component name="RunManager" selected="JUnit.Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -790,21 +762,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.addSpecialToPriceListItemGetSpecialsReturnsThatSpecial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="addSpecialToPriceListItemGetSpecialsReturnsThatSpecial" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests.addXForYdollarsSpecialReturnSpecial" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="addXForYdollarsSpecialReturnSpecial" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -837,19 +809,19 @@
       <item itemvalue="JUnit.SpecialTests" />
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests" />
-      <item itemvalue="JUnit.Tests.addSpecialToPriceListItemGetSpecialsReturnsThatSpecial" />
       <item itemvalue="JUnit.Tests.addXForYdollarsSpecialReturnSpecial" />
       <item itemvalue="JUnit.Tests.addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial" />
       <item itemvalue="JUnit.Tests" />
       <item itemvalue="JUnit.Tests.whenItemAddedAndThenRemovedTotalIsZero" />
+      <item itemvalue="JUnit.Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
         <item itemvalue="JUnit.Tests.whenItemAddedAndThenRemovedTotalIsZero" />
         <item itemvalue="JUnit.Tests" />
         <item itemvalue="JUnit.Tests.addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial" />
         <item itemvalue="JUnit.Tests.addXForYdollarsSpecialReturnSpecial" />
-        <item itemvalue="JUnit.Tests.addSpecialToPriceListItemGetSpecialsReturnsThatSpecial" />
       </list>
     </recent_temporary>
   </component>
@@ -865,12 +837,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests_whenOneItemIsAddedToPriceListSizeIs1 - 2018.09.18 at 22h 55m 06s.xml">
-      <configuration name="Tests.whenOneItemIsAddedToPriceListSizeIs1" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="Tests_whenGetItemIsCalledOnItemInPriceListItemIsReturned - 2018.09.18 at 22h 55m 15s.xml">
-      <configuration name="Tests.whenGetItemIsCalledOnItemInPriceListItemIsReturned" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests_addKJISpecialAndReturnIt - 2018.09.18 at 22h 57m 06s.xml">
       <configuration name="Tests.addKJISpecialAndReturnIt" configurationId="JUnit" />
     </history-entry>
@@ -895,9 +861,15 @@
     <history-entry file="Tests - 2018.09.18 at 23h 00m 14s.xml">
       <configuration name="Tests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests_whenItemAddedAndThenRemovedTotalIsZero - 2018.09.18 at 23h 11m 53s.xml">
+      <configuration name="Tests.whenItemAddedAndThenRemovedTotalIsZero" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="Tests_whenItemAddedAndThenRemovedTotalIsZero - 2018.09.18 at 23h 12m 40s.xml">
+      <configuration name="Tests.whenItemAddedAndThenRemovedTotalIsZero" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="136896000" />
+    <option name="totallyTimeSpent" value="137541000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -912,21 +884,21 @@
     <frame x="66" y="23" width="1342" height="749" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33615384" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.33615384" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23592085" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.24657534" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37290716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.22678843" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22678843" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32936507" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.45357686" />
@@ -1485,19 +1457,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="92" selection-start-line="92" selection-end-line="92" />
-          <folding>
-            <element signature="e#307#308#0" expanded="true" />
-            <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#771#772#0" expanded="true" />
-            <element signature="e#828#829#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/SpecialBuyNGetMForXPercentOff.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -1519,16 +1478,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/PriceList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
@@ -1541,10 +1490,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Transaction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="92" selection-start-line="92" selection-end-line="92" />
+          <folding>
+            <element signature="e#307#308#0" expanded="true" />
+            <element signature="e#348#349#0" expanded="true" />
+            <element signature="e#771#772#0" expanded="true" />
+            <element signature="e#828#829#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="21" column="69" selection-start-line="21" selection-start-column="69" selection-end-line="21" selection-end-column="69" />
+        <state relative-caret-position="296">
+          <caret line="32" column="77" selection-start-line="32" selection-start-column="77" selection-end-line="32" selection-end-column="77" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#167#168#0" expanded="true" />
@@ -1557,8 +1529,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="329">
-          <caret line="66" column="51" selection-start-line="66" selection-start-column="51" selection-end-line="66" selection-end-column="51" />
+        <state relative-caret-position="358">
+          <caret line="82" column="53" selection-start-line="82" selection-start-column="53" selection-end-line="82" selection-end-column="53" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2529#2530#0" expanded="true" />

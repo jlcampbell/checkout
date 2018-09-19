@@ -71,7 +71,18 @@ public class Tests {
 
 //    //Req #4 buy N items get M at x% off
 //    //Assuming this means N and M items are all multiples of the same item
+    @Test
+    public void buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken(){
+        setupRegister();
+        register.addNewItemToPriceList("banana", 1, 0);
+        register.addBuyNGetMForXPercentSpecialToItemInPriceList("banana", 2,1, 50);
+        register.startTransaction();
+        register.scanItem("banana");
+        register.scanItem("banana");
+        register.scanItem("banana");
+        assertEquals(2.5, register.getTotal(), 0.01);
 
+    }
 
 
 
