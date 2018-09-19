@@ -801,7 +801,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.whenAOneDollarItemScannedTotalReturns1">
+  <component name="RunManager" selected="JUnit.Tests.whenItemWithWeightIsScannedTotalIsIncreasedByWeight">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -842,16 +842,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemOnReceiptXforYTests.limitApplies" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemOnReceiptXforYTests" />
-      <option name="METHOD_NAME" value="limitApplies" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="SpecialTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -867,6 +857,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="whenAOneDollarItemScannedTotalReturns1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.whenItemWithWeightIsScannedTotalIsIncreasedByWeight" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="whenItemWithWeightIsScannedTotalIsIncreasedByWeight" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -920,18 +920,18 @@
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests" />
       <item itemvalue="JUnit.TransactionTests.specialLimitSupportedBuyXforY" />
-      <item itemvalue="JUnit.ItemOnReceiptXforYTests.limitApplies" />
       <item itemvalue="JUnit.TransactionTests.specialLimitSupportedByMForNWeight" />
       <item itemvalue="JUnit.Tests.whenNewRegisterIsQueriedForTotalItReturns0" />
       <item itemvalue="JUnit.Tests.whenAOneDollarItemScannedTotalReturns1" />
+      <item itemvalue="JUnit.Tests.whenItemWithWeightIsScannedTotalIsIncreasedByWeight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.whenItemWithWeightIsScannedTotalIsIncreasedByWeight" />
         <item itemvalue="JUnit.Tests.whenAOneDollarItemScannedTotalReturns1" />
         <item itemvalue="JUnit.Tests.whenNewRegisterIsQueriedForTotalItReturns0" />
         <item itemvalue="JUnit.TransactionTests.specialLimitSupportedByMForNWeight" />
         <item itemvalue="JUnit.TransactionTests.specialLimitSupportedBuyXforY" />
-        <item itemvalue="JUnit.ItemOnReceiptXforYTests.limitApplies" />
       </list>
     </recent_temporary>
   </component>
