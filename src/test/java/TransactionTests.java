@@ -178,7 +178,7 @@ public class TransactionTests {
         assertEquals(3.50, transaction.getTotal(), 0.01);
     }
     @Test
-    public void specialLimitSupportedBuyXforY(){
+    public void specialLimitSupportedByXforY(){
         priceList = new PriceList();
         priceList.addItem("candy", 1, 0);
         priceList.setSpecialXForY("candy", 3, 1, 6);
@@ -195,6 +195,18 @@ public class TransactionTests {
         transaction.scanItem("candy");
         assertEquals(5, transaction.getTotal(), 0.01);
 
+    }
+    @Test
+    public void specialLimitSupportedByMForNWeight(){
+        priceList = new PriceList();
+        priceList.addItem("pork", 4, 0);
+        priceList.setSpecialBuyNGetMForXPercentOff("pork", 1, 1, 50, 2);
+        transaction = new Transaction(priceList);
+        transaction.scanItemByWeight("pork", 1);
+        transaction.scanItemByWeight("pork", 1);
+        transaction.scanItemByWeight("pork", 1);
+        transaction.scanItemByWeight("pork", 1);
+        assertEquals(14, transaction.getTotal(), 0.01);
     }
 
 

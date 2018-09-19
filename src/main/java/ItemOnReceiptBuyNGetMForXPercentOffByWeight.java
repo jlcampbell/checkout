@@ -70,6 +70,8 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight extends ItemOnReceipt {
 
         double total = 0;
         int count = 0;
+        int limitCount = 0;
+        int limit = (mSpecial.hasLimit()) ? mSpecial.getmLimit() : 999;
         //order each price group
         //from each set the lowest ones get the special
         Collections.sort(mWeights, Collections.reverseOrder());
@@ -83,6 +85,10 @@ public class ItemOnReceiptBuyNGetMForXPercentOffByWeight extends ItemOnReceipt {
             } else if (count >= mNumberYouMustBuy && count< mNumberYouMustBuy+mNumberYouGetAtSpecial){
                 total += getSpecialPrice(weight);
                 count += 1;
+            }
+            limitCount += 1;
+            if (limitCount >= limit){
+                count = 0;
             }
         }
         return total;
