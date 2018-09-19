@@ -2,8 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TransactionTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TransactionTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileContent/fileContent.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ItemOnReceiptBuyNGetMForXPercentOffByWeight.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ItemOnReciept.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/ItemOnRecieptXforY.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/ItemOnRecieptXforY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/PriceList.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/PriceList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SpecialBuyNGetMForXPercentOff.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/SpecialBuyNGetMForXPercentOff.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/SpecialXForY.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/SpecialXForY.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/XForYDollarsSpecial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptXforYTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/ItemOnReceiptXforYTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Tests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/TransactionTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/TransactionTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptTests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptXforYTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/ItemOnReceiptXforYTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialBuyNGetMForXPercentOffTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialBuyNGetMForXPercentOffTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialXForYTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/SpecialXForYTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/Tests.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/classes/TransactionTests.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/classes/TransactionTests.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/reports/tests/test/packages/default-package.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptXforYTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-ItemOnReceiptXforYTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialBuyNGetMForXPercentOffTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialBuyNGetMForXPercentOffTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialXForYTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-SpecialXForYTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-Tests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/TEST-TransactionTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/TEST-TransactionTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/test-results/test/binary/results.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -57,7 +98,7 @@
           <entry key="class" value="1" />
           <entry key="gradle" value="1" />
           <entry key="html" value="2" />
-          <entry key="java" value="93" />
+          <entry key="java" value="95" />
           <entry key="properties" value="1" />
         </counts>
       </usages-collector>
@@ -66,7 +107,7 @@
           <entry key="CLASS" value="1" />
           <entry key="Groovy" value="1" />
           <entry key="HTML" value="2" />
-          <entry key="JAVA" value="93" />
+          <entry key="JAVA" value="95" />
           <entry key="Properties" value="1" />
         </counts>
       </usages-collector>
@@ -117,13 +158,27 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
+            <state relative-caret-position="340">
               <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="21" column="7" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="21" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#211#212#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -153,6 +208,18 @@
                 <element signature="e#570#571#0" expanded="true" />
                 <element signature="e#616#617#0" expanded="true" />
                 <element signature="e#640#641#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2605">
+              <caret line="188" selection-start-line="188" selection-end-line="188" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -591,7 +658,6 @@
         <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/Register.java" />
-        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceipt.java" />
         <option value="$PROJECT_DIR$/src/main/java/Transaction.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetM.java" />
@@ -603,6 +669,7 @@
         <option value="$PROJECT_DIR$/src/main/java/ItemOnRecieptXforY.java" />
         <option value="$PROJECT_DIR$/src/test/java/TransactionTests.java" />
         <option value="$PROJECT_DIR$/src/main/java/ItemOnReceiptBuyNGetMForXPercentOffByWeight.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Tests.java" />
       </list>
     </option>
   </component>
@@ -734,7 +801,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TransactionTests">
+  <component name="RunManager" selected="JUnit.Tests.whenAOneDollarItemScannedTotalReturns1">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -795,22 +862,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.whenAOneDollarItemScannedTotalReturns1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="whenAOneDollarItemScannedTotalReturns1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.whenNewRegisterIsQueriedForTotalItReturns0" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="whenNewRegisterIsQueriedForTotalItReturns0" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TransactionTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TransactionTests" />
       <option name="METHOD_NAME" value="" />
       <option name="PARAMETERS" value="" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TransactionTests.itemWithMForNSpecialCanBeRemoved" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TransactionTests" />
-      <option name="METHOD_NAME" value="itemWithMForNSpecialCanBeRemoved" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -835,16 +912,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TransactionTests.whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TransactionTests" />
-      <option name="METHOD_NAME" value="whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="JUnit.TransactionTests" />
       <item itemvalue="JUnit.ItemOnReceiptTests" />
@@ -852,19 +919,19 @@
       <item itemvalue="JUnit.SpecialTests" />
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests" />
-      <item itemvalue="JUnit.TransactionTests.itemWithMForNSpecialCanBeRemoved" />
-      <item itemvalue="JUnit.TransactionTests.whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents" />
       <item itemvalue="JUnit.TransactionTests.specialLimitSupportedBuyXforY" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests.limitApplies" />
       <item itemvalue="JUnit.TransactionTests.specialLimitSupportedByMForNWeight" />
+      <item itemvalue="JUnit.Tests.whenNewRegisterIsQueriedForTotalItReturns0" />
+      <item itemvalue="JUnit.Tests.whenAOneDollarItemScannedTotalReturns1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.whenAOneDollarItemScannedTotalReturns1" />
+        <item itemvalue="JUnit.Tests.whenNewRegisterIsQueriedForTotalItReturns0" />
         <item itemvalue="JUnit.TransactionTests.specialLimitSupportedByMForNWeight" />
         <item itemvalue="JUnit.TransactionTests.specialLimitSupportedBuyXforY" />
         <item itemvalue="JUnit.ItemOnReceiptXforYTests.limitApplies" />
-        <item itemvalue="JUnit.TransactionTests.whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents" />
-        <item itemvalue="JUnit.TransactionTests.itemWithMForNSpecialCanBeRemoved" />
       </list>
     </recent_temporary>
   </component>
@@ -880,12 +947,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ItemOnReceiptXforYTests_limitApplies - 2018.09.18 at 21h 34m 22s.xml">
-      <configuration name="ItemOnReceiptXforYTests.limitApplies" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="ItemOnReceiptXforYTests_limitApplies - 2018.09.18 at 21h 39m 30s.xml">
-      <configuration name="ItemOnReceiptXforYTests.limitApplies" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="ItemOnReceiptXforYTests - 2018.09.18 at 21h 39m 57s.xml">
       <configuration name="ItemOnReceiptXforYTests" configurationId="JUnit" />
     </history-entry>
@@ -910,9 +971,15 @@
     <history-entry file="TransactionTests_specialLimitSupportedByMForNWeight - 2018.09.18 at 22h 08m 31s.xml">
       <configuration name="TransactionTests.specialLimitSupportedByMForNWeight" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TransactionTests_specialLimitSupportedByMForNWeight - 2018.09.18 at 22h 27m 27s.xml">
+      <configuration name="TransactionTests.specialLimitSupportedByMForNWeight" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TransactionTests - 2018.09.18 at 22h 27m 40s.xml">
+      <configuration name="TransactionTests" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="134728000" />
+    <option name="totallyTimeSpent" value="135566000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -934,14 +1001,14 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.23592085" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.23592085" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37290716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2526636" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.22678843" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32936507" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.45357686" />
@@ -1416,25 +1483,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="900">
-          <caret line="60" column="29" lean-forward="true" selection-end-line="189" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="21" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#167#168#0" expanded="true" />
-            <element signature="e#211#212#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ItemOnReceiptBuyNGetMForXPercentOffByWeightTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
@@ -1565,8 +1613,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TransactionTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="203">
+        <state relative-caret-position="340">
           <caret line="208" column="55" selection-start-line="208" selection-start-column="55" selection-end-line="208" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="7" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="21" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#211#212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2605">
+          <caret line="188" selection-start-line="188" selection-end-line="188" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,50 +1,50 @@
-//import org.junit.Before;
-//import org.junit.Test;
-//
-//import java.util.HashMap;
-//
-//import static org.junit.Assert.assertEquals;
-//
-//public class Tests {
-//    Register register;
-//    @Before
-//    public void setupRegister(){
-//        register = new Register();
-//        register.startTransaction();
-//    }
-//
-//
-//
+import org.junit.Before;
+import org.junit.Test;
+
+import java.util.HashMap;
+
+import static org.junit.Assert.assertEquals;
+
+public class Tests {
+    Register register;
+    @Before
+    public void setupRegister(){
+        register = new Register();
+        register.startTransaction();
+    }
+
+
+
 ////  register
 //
 ////  register should be able to start a new transaction
-//
-//
-//
+
+
+
 ////  register/transaction
-//
-//
-//    @Test
-//    public void whenNewRegisterIsQueriedForTotalItReturns0(){
-//        setupRegister();
-//        assertEquals(0, register.getTotal(), 0.01);
-//    }
-//    @Test
-//    public void whenAOneDollarItemScannedTotalReturns1(){
-//        setupRegister();
-//        register.addNewItemToPriceList("banana",1, 0);
-//        register.startTransaction();
-//        register.scanItem("banana");
-//        assertEquals(1, register.getTotal(), 0.01);
-//    }
-//    @Test
-//    public void whenItemWithWeightIsScannedTotalIsIncreasedByWeight(){
-//        setupRegister();
-//        register.addNewItemToPriceList("banana", 1, 0);
-//        register.startTransaction();
-//        register.scanItemByWeight("banana", 3.0);
-//        assertEquals(3, register.getTotal(), 0.01);
-//    }
+
+
+    @Test
+    public void whenNewRegisterIsQueriedForTotalItReturns0(){
+        setupRegister();
+        assertEquals(0, register.getTotal(), 0.01);
+    }
+    @Test
+    public void whenAOneDollarItemScannedTotalReturns1(){
+        setupRegister();
+        register.addNewItemToPriceList("banana",1, 0);
+        register.startTransaction();
+        register.scanItem("banana");
+        assertEquals(1, register.getTotal(), 0.01);
+    }
+    @Test
+    public void whenItemWithWeightIsScannedTotalIsIncreasedByWeight(){
+        setupRegister();
+        register.addNewItemToPriceList("banana", 1, 0);
+        register.startTransaction();
+        register.scanItemByWeight("banana", 3.0);
+        assertEquals(3, register.getTotal(), 0.01);
+    }
 //    //Req #3 test item with markdown
 //    @Test
 //    public void whenMarkedDownItemScannedTotalIncreasedByPriceMinusMarkdown(){
@@ -186,4 +186,4 @@
 //    }
 //
 //
-//}
+}
