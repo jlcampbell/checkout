@@ -5,6 +5,7 @@ public class Register {
     private PriceList mPriceList;
     private Transaction mTransaction;
 
+
     public Register(){
         mPriceList = new PriceList();
     }

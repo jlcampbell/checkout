@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="TransactionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-09-19T03:25:49" hostname="Jessicas-MacBook-Pro.local" time="0.004">
+<testsuite name="TransactionTests" tests="14" skipped="0" failures="0" errors="0" timestamp="2018-09-19T19:18:06" hostname="Jessicas-MacBook-Pro.local" time="0.004">
   <properties/>
   <testcase name="itemWithXForYSpecialCanBeRemoved" classname="TransactionTests" time="0.0"/>
-  <testcase name="testThatSpecialIsNotAppliedWhenOnlyOneItemOfEachTypeIsBought" classname="TransactionTests" time="0.001"/>
-  <testcase name="scan1DollarItemTotalIncreasesBy1" classname="TransactionTests" time="0.0"/>
+  <testcase name="testThatSpecialIsNotAppliedWhenOnlyOneItemOfEachTypeIsBought" classname="TransactionTests" time="0.0"/>
+  <testcase name="scan1DollarItemTotalIncreasesBy1" classname="TransactionTests" time="0.001"/>
   <testcase name="whenTwoForOneSpecialAppliedTwoBreadsShouldReturn1" classname="TransactionTests" time="0.0"/>
   <testcase name="specialLimitSupportedByMForNWeight" classname="TransactionTests" time="0.0"/>
-  <testcase name="itemWithMForNSpecialCanBeRemoved" classname="TransactionTests" time="0.0"/>
+  <testcase name="itemWithMForNSpecialCanBeRemoved" classname="TransactionTests" time="0.001"/>
   <testcase name="whenSpecialIsAppliedScanningTwoBananasShouldReturn75cents" classname="TransactionTests" time="0.0"/>
   <testcase name="totalAfterItemAddedAndRemovedReturns0" classname="TransactionTests" time="0.0"/>
-  <testcase name="itemWithMForNSpecialScannedByWeightCanBeRemoved" classname="TransactionTests" time="0.0"/>
+  <testcase name="itemWithMForNSpecialScannedByWeightCanBeRemoved" classname="TransactionTests" time="0.001"/>
   <testcase name="specialLimitSupportedByXforY" classname="TransactionTests" time="0.0"/>
   <testcase name="scanItemByWeightIncreasesTotalByWeightxPrice" classname="TransactionTests" time="0.0"/>
   <testcase name="newTransactionTotalReturns0" classname="TransactionTests" time="0.0"/>

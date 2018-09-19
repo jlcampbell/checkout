@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="SpecialBuyNGetMForXPercentOffTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-09-19T03:25:49" hostname="Jessicas-MacBook-Pro.local" time="0.002">
+<testsuite name="SpecialBuyNGetMForXPercentOffTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-09-19T19:18:06" hostname="Jessicas-MacBook-Pro.local" time="0.002">
   <properties/>
   <testcase name="getPercentOffReturnsThirdConstructorArg" classname="SpecialBuyNGetMForXPercentOffTests" time="0.001"/>
   <testcase name="getNumberDiscountedReturnsSecondConstructorArg" classname="SpecialBuyNGetMForXPercentOffTests" time="0.0"/>

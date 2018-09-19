@@ -1,22 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Tests" tests="17" skipped="0" failures="0" errors="0" timestamp="2018-09-19T03:25:49" hostname="Jessicas-MacBook-Pro.local" time="0.006">
+<testsuite name="Tests" tests="22" skipped="0" failures="0" errors="0" timestamp="2018-09-19T19:18:06" hostname="Jessicas-MacBook-Pro.local" time="0.009">
   <properties/>
-  <testcase name="addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial" classname="Tests" time="0.0"/>
+  <testcase name="addBuyKGetJOfEqualOrLesserValueForXpercentOffReturnSpecial" classname="Tests" time="0.001"/>
+  <testcase name="mForNAtXpercentOffWithLimit" classname="Tests" time="0.0"/>
+  <testcase name="XForYSpecialCanBeAppliedAndDiscountTaken" classname="Tests" time="0.0"/>
   <testcase name="addXForYdollarsSpecialReturnSpecial" classname="Tests" time="0.0"/>
-  <testcase name="buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" classname="Tests" time="0.001"/>
+  <testcase name="buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" classname="Tests" time="0.0"/>
+  <testcase name="mForNbyWeightWithLimitAppliesDiscount" classname="Tests" time="0.001"/>
   <testcase name="whenNewRegisterIsQueriedForTotalItReturns0" classname="Tests" time="0.0"/>
   <testcase name="addKJISpecialAndReturnIt" classname="Tests" time="0.0"/>
   <testcase name="addSpecialToPriceListItemGetSpecialsReturnsThatSpecial" classname="Tests" time="0.0"/>
   <testcase name="whenItemAddedAndThenRemovedTotalIsZero" classname="Tests" time="0.0"/>
   <testcase name="addXForYSpecialToPriceListAndReturnIt" classname="Tests" time="0.0"/>
   <testcase name="whenItemWithWeightIsScannedTotalIsIncreasedByWeight" classname="Tests" time="0.0"/>
+  <testcase name="MforNAtXPercentOffSpecialCanBeAppliedToItemByWeight" classname="Tests" time="0.0"/>
+  <testcase name="XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" classname="Tests" time="0.0"/>
   <testcase name="whenNewPriceListIsQueriedSizeIs0" classname="Tests" time="0.0"/>
-  <testcase name="whenAOneDollarItemScannedTotalReturns1" classname="Tests" time="0.0"/>
-  <testcase name="initializeNewItemWithMarkdown10ForMarkdownReturns10" classname="Tests" time="0.0"/>
+  <testcase name="whenAOneDollarItemScannedTotalReturns1" classname="Tests" time="0.001"/>
+  <testcase name="initializeNewItemWithMarkdown10ForMarkdownReturns10" classname="Tests" time="0.001"/>
   <testcase name="whenGetItemIsCalledOnItemInPriceListItemIsReturned" classname="Tests" time="0.0"/>
   <testcase name="whenOneItemIsAddedToPriceListSizeIs1" classname="Tests" time="0.0"/>
   <testcase name="initializeNewItemWithAPriceQueryForPriceReturnsPrice" classname="Tests" time="0.0"/>
-  <testcase name="whenMarkedDownItemScannedTotalIncreasedByPriceMinusMarkdown" classname="Tests" time="0.001"/>
+  <testcase name="whenMarkedDownItemScannedTotalIncreasedByPriceMinusMarkdown" classname="Tests" time="0.0"/>
   <testcase name="whenWeighedItemMarkedDownReflectsUnitPriceMinusMarkdown" classname="Tests" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
