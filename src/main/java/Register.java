@@ -19,6 +19,7 @@ public class Register {
     public void scanItemByWeight(String name, Double weight){
         mTransaction.scanItemByWeight(name, weight);
     }
+    public void removeItem(String name) {mTransaction.removeItem(name);}
     //remove item
     public double getTotal(){
         return mTransaction.getTotal();
