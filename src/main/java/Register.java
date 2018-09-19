@@ -16,6 +16,7 @@ public class Register {
     public void scanItem(String name){
         mTransaction.scanItem(name);
     }
+
     public void scanItemByWeight(String name, Double weight){
         mTransaction.scanItemByWeight(name, weight);
     }
@@ -24,7 +25,6 @@ public class Register {
     public double getTotal(){
         return mTransaction.getTotal();
     }
-
 
     public void addNewItemToPriceList(String name, double price, double markdown) {
         mPriceList.addItem(name, price, markdown);
@@ -42,9 +42,5 @@ public class Register {
     public void addXForYSpecialToItemInPricelist(String name, int x, int y, int limit){
         mPriceList.setSpecialXForY(name, x, y, limit);
     }
-//set special
-    //set special with limit
-//    public int getPriceListSize() {
-//        return mPriceList.getNumberOfItems();
-//    }
+
 }

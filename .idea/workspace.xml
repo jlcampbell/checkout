@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1ae433d2-5b46-425c-b807-08420368c1eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Register.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,13 +72,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="21229" />
+          <entry key="java" value="21345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="21229" />
+          <entry key="JAVA" value="21345" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -140,8 +139,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="266">
-              <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+            <state relative-caret-position="348">
+              <caret line="148" column="48" selection-start-line="148" selection-start-column="48" selection-end-line="148" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2529#2530#0" expanded="true" />
@@ -695,7 +694,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken">
+  <component name="RunManager" selected="JUnit.Tests.mForNbyWeightWithLimitAppliesDiscount">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -776,21 +775,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Tests.mForNAtXpercentOffWithLimit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="mForNAtXpercentOffWithLimit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tests.mForNbyWeightWithLimitAppliesDiscount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="mForNbyWeightWithLimitAppliesDiscount" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -813,19 +812,19 @@
       <item itemvalue="JUnit.SpecialTests" />
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests" />
-      <item itemvalue="JUnit.Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
       <item itemvalue="JUnit.Tests.XForYSpecialCanBeAppliedAndDiscountTaken" />
       <item itemvalue="JUnit.Tests.MforNAtXPercentOffSpecialCanBeAppliedToItemByWeight" />
       <item itemvalue="JUnit.Tests.mForNAtXpercentOffWithLimit" />
       <item itemvalue="JUnit.Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" />
+      <item itemvalue="JUnit.Tests.mForNbyWeightWithLimitAppliesDiscount" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.mForNbyWeightWithLimitAppliesDiscount" />
         <item itemvalue="JUnit.Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" />
         <item itemvalue="JUnit.Tests.mForNAtXpercentOffWithLimit" />
         <item itemvalue="JUnit.Tests.MforNAtXPercentOffSpecialCanBeAppliedToItemByWeight" />
         <item itemvalue="JUnit.Tests.XForYSpecialCanBeAppliedAndDiscountTaken" />
-        <item itemvalue="JUnit.Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
       </list>
     </recent_temporary>
   </component>
@@ -841,9 +840,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Tests - 2018.09.18 at 23h 00m 14s.xml">
-      <configuration name="Tests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Tests_whenItemAddedAndThenRemovedTotalIsZero - 2018.09.18 at 23h 11m 53s.xml">
       <configuration name="Tests.whenItemAddedAndThenRemovedTotalIsZero" configurationId="JUnit" />
     </history-entry>
@@ -871,9 +867,12 @@
     <history-entry file="Tests_mForNAtXpercentOffWithLimit - 2018.09.19 at 13h 03m 45s.xml">
       <configuration name="Tests.mForNAtXpercentOffWithLimit" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="Tests_XForYSpecialWithLimitCanBeAppliedAndDiscountTaken - 2018.09.19 at 13h 13m 28s.xml">
+      <configuration name="Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="140107000" />
+    <option name="totallyTimeSpent" value="140370000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1535,8 +1534,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
+        <state relative-caret-position="348">
+          <caret line="148" column="48" selection-start-line="148" selection-start-column="48" selection-end-line="148" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2529#2530#0" expanded="true" />

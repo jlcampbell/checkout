@@ -134,7 +134,21 @@ public void XForYSpecialWithLimitCanBeAppliedAndDiscountTaken(){
 }
 
 //n for m weight, limit
+@Test
+    public void mForNbyWeightWithLimitAppliesDiscount(){
+    setupRegister();
+    register.addNewItemToPriceList("banana", 1, 0);
+    register.addBuyNGetMForXPercentSpecialToItemInPriceList("banana", 2, 1, 50, 3);
+    register.startTransaction();
+    register.scanItemByWeight("banana", 1.00);
+    register.scanItemByWeight("banana", 1.00);
+    register.scanItemByWeight("banana", 1.00);
+    register.scanItemByWeight("banana", 1.00);
+    register.scanItemByWeight("banana", 1.00);
+    register.scanItemByWeight("banana", 1.00);
 
+    assertEquals(5.50, register.getTotal(), 0.01);
+}
 
 
 
