@@ -39,6 +39,9 @@ public class Register {
     public void addXForYSpecialToItemInPricelist(String name, int x, int y){
         mPriceList.setSpecialXForY(name, x, y);
     }
+    public void addXForYSpecialToItemInPricelist(String name, int x, int y, int limit){
+        mPriceList.setSpecialXForY(name, x, y, limit);
+    }
 //set special
     //set special with limit
 //    public int getPriceListSize() {

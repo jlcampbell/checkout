@@ -120,8 +120,21 @@ public class Tests {
 
     }
 //x for y limit
+@Test
+public void XForYSpecialWithLimitCanBeAppliedAndDiscountTaken(){
+    setupRegister();
+    register.addNewItemToPriceList("banana", 1, 0);
+    register.addXForYSpecialToItemInPricelist("banana", 2, 1, 2);
+    register.startTransaction();
+    register.scanItem("banana");
+    register.scanItem("banana");
+    register.scanItem("banana");
+    register.scanItem("banana");
+    assertEquals(3, register.getTotal(), 0.01);
+}
 
 //n for m weight, limit
+
 
 
 

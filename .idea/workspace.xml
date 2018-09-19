@@ -73,13 +73,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="3" />
-          <entry key="java" value="21191" />
+          <entry key="java" value="21229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="3" />
-          <entry key="JAVA" value="21191" />
+          <entry key="JAVA" value="21229" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.spring.boot.mvc.usages" />
@@ -93,8 +93,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="35" column="81" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
+            <state relative-caret-position="239">
+              <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#167#168#0" expanded="true" />
@@ -140,8 +140,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="213">
-              <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+            <state relative-caret-position="266">
+              <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2529#2530#0" expanded="true" />
@@ -695,7 +695,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Tests.mForNAtXpercentOffWithLimit">
+  <component name="RunManager" selected="JUnit.Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken">
     <configuration name="ItemOnReceiptBuyNGetMForXPercentOffByWeightTests" type="JUnit" factoryName="JUnit">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -766,6 +766,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JessicaCashRegister" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="METHOD_NAME" value="XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="JessicaCashRegister" />
       <option name="PACKAGE_NAME" value="" />
@@ -781,16 +791,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
       <option name="METHOD_NAME" value="mForNAtXpercentOffWithLimit" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Tests.whenItemAddedAndThenRemovedTotalIsZero" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="JessicaCashRegister" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="whenItemAddedAndThenRemovedTotalIsZero" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -813,19 +813,19 @@
       <item itemvalue="JUnit.SpecialTests" />
       <item itemvalue="JUnit.ItemOnReceiptBuyNGetMTests" />
       <item itemvalue="JUnit.ItemOnReceiptXforYTests" />
-      <item itemvalue="JUnit.Tests.whenItemAddedAndThenRemovedTotalIsZero" />
       <item itemvalue="JUnit.Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
       <item itemvalue="JUnit.Tests.XForYSpecialCanBeAppliedAndDiscountTaken" />
       <item itemvalue="JUnit.Tests.MforNAtXPercentOffSpecialCanBeAppliedToItemByWeight" />
       <item itemvalue="JUnit.Tests.mForNAtXpercentOffWithLimit" />
+      <item itemvalue="JUnit.Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.Tests.XForYSpecialWithLimitCanBeAppliedAndDiscountTaken" />
         <item itemvalue="JUnit.Tests.mForNAtXpercentOffWithLimit" />
         <item itemvalue="JUnit.Tests.MforNAtXPercentOffSpecialCanBeAppliedToItemByWeight" />
         <item itemvalue="JUnit.Tests.XForYSpecialCanBeAppliedAndDiscountTaken" />
         <item itemvalue="JUnit.Tests.buyNGetMXpercentOffSpecialCanBeAppliedAndDiscountTaken" />
-        <item itemvalue="JUnit.Tests.whenItemAddedAndThenRemovedTotalIsZero" />
       </list>
     </recent_temporary>
   </component>
@@ -873,7 +873,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="139920000" />
+    <option name="totallyTimeSpent" value="140107000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -895,14 +895,14 @@
       <window_info id="Favorites" order="4" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32881355" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.39726028" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39726028" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.37290716" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.35312024" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.35312024" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="11" weight="0.32936507" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.45357686" />
@@ -1519,8 +1519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/Register.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="35" column="81" selection-start-line="35" selection-start-column="81" selection-end-line="35" selection-end-column="81" />
+        <state relative-caret-position="239">
+          <caret line="42" column="52" selection-start-line="42" selection-start-column="52" selection-end-line="42" selection-end-column="52" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#167#168#0" expanded="true" />
@@ -1535,8 +1535,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="118" column="22" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="22" />
+        <state relative-caret-position="266">
+          <caret line="132" column="18" selection-start-line="132" selection-start-column="18" selection-end-line="132" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2529#2530#0" expanded="true" />
