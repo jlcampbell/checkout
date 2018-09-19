@@ -9,6 +9,7 @@ public class ItemOnRecieptXforY extends ItemOnReceipt {
         mSpecial = item.getSpecialXForYDollars();
         mQuantity = 0;
     }
+
     @Override
     public void addItem(){
         mQuantity += 1;
@@ -19,14 +20,27 @@ public class ItemOnRecieptXforY extends ItemOnReceipt {
 
     @Override
     public double getTotal(){
-        int quantityToBePurchasedToApplySpecial = mSpecial.getNumberThatMustBePurchased();
-        double specialPrice = mSpecial.getPriceForSet();
-        double answer;
-        int numberOfTimesSpecialIsApplied = mQuantity/quantityToBePurchasedToApplySpecial;
-        int extras = mQuantity % quantityToBePurchasedToApplySpecial;
-        double total = numberOfTimesSpecialIsApplied*specialPrice + extras*(mOriginalPrice-mMarkdown);
+        //if limit is less than quantity
+        //total = (mQuantity-limit)*regularPrice
+//                    + (limit % numberThatMustBePurchased)*regularPrice
+//                    + (limit/numberThatMustBePurchased)*specialSetPrice
+
+
+        int limit = mSpecial.getLimit();
+        int bound = (limit > mQuantity) ? mQuantity : limit;
+        double total = totalPartOne(bound)+totalPartTwo(bound)+totalPartThree(bound);
+
+
         return total;
     }
-
+    private double totalPartOne(int bound){
+        return (mQuantity-bound)*(mItem.getPrice()-mItem.getMarkdown());
+    }
+    private double totalPartTwo(int bound){
+        return (bound % mSpecial.getNumberThatMustBePurchased())*(mItem.getPrice()-mItem.getMarkdown());
+    }
+    private double totalPartThree(int bound){
+        return (bound / mSpecial.getNumberThatMustBePurchased())*mSpecial.getPriceForSet();
+    }
 
 }

@@ -47,6 +47,12 @@ public class PriceList {
         mItems.put(name, item);
     }
 
+    public void setSpecialXForY(String name, int x, double y, int limit) {
+        Item item = getItem(name);
+        item.setSpecialXForYDollars(x,y, limit);
+        mItems.put(name, item);
+    }
+
     public Special getSpecial(String name){
         Item item = getItem(name);
         return item.getSpecial();

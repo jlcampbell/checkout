@@ -43,6 +43,10 @@ public class Item {
         mXForYSpecial = new SpecialXForY(x, yDollars);
         }
 
+    public void setSpecialXForYDollars(int x, double yDollars, int limit) {
+        mXForYSpecial = new SpecialXForY(x, yDollars, limit);
+    }
+
     public SpecialXForY getSpecialXForYDollars(){
         return mXForYSpecial;
     }

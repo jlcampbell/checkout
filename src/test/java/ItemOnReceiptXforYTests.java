@@ -32,6 +32,26 @@ public class ItemOnReceiptXforYTests {
         breadForThisOrder.addItem();
         assertEquals(2, breadForThisOrder.getTotal(), 0.01);
     }
+    @Before
+    public void limitSetup(){
+        priceList = new PriceList();
+        priceList.addItem("bread loaf", 1, 0);
+        priceList.setSpecialXForY("bread loaf", 2, 1, 2);
+        bread = priceList.getItem("bread loaf");
+        breadForThisOrder = new ItemOnRecieptXforY(bread);
+
+
+    }
+    @Test
+    public void limitApplies(){
+        limitSetup();
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        assertEquals(1, breadForThisOrder.getTotal(), 0.01);
+        breadForThisOrder.addItem();
+        breadForThisOrder.addItem();
+        assertEquals(3, breadForThisOrder.getTotal(), 0.01);
+    }
 
 
 
