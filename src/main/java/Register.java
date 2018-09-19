@@ -32,6 +32,9 @@ public class Register {
     public void addBuyNGetMForXPercentSpecialToItemInPriceList(String name, int n, int m, int percentOff ){
         mPriceList.setSpecialBuyNGetMForXPercentOff(name, n, m, percentOff );
     }
+    public void addXForYSpecialToItemInPricelist(String name, int x, int y){
+        mPriceList.setSpecialXForY(name, x, y);
+    }
 //set special
     //set special with limit
 //    public int getPriceListSize() {

@@ -83,18 +83,24 @@ public class Tests {
         assertEquals(2.5, register.getTotal(), 0.01);
 
     }
+    @Test
+    public void XForYSpecialCanBeAppliedAndDiscountTaken(){
+        setupRegister();
+        register.addNewItemToPriceList("banana", 1, 0);
+        register.addXForYSpecialToItemInPricelist("banana", 2, 1);
+        register.startTransaction();
+        register.scanItem("banana");
+        register.scanItem("banana");
+        assertEquals(1, register.getTotal(), 0.01);
+    }
+//n get m limit
+//x for y limit
+//n for m weight
+//n for m weight, limit
 
 
 
 
-
-
-//    //Req #4 buy N items get M at x% off
-//    //Need to be able to add a special from the register
-//
-//
-//    //Req #4 buy N items get M at x% off
-//    //Special should be applied when 3 items are bought
 //
 //    //Req #4 buy N items get M at x% off
 //    //Special should not be applied when too few items bought
