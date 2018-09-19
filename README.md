@@ -2,7 +2,7 @@
 Business logic for a point-of-sale system. My solution to https://github.com/PillarTechnology/kata-checkout-order-total.
 
 # features
--scan an item
+-scan an item /n
 -scan an item by weight
 -set prices and markdowns
 -add a "Buy N Get M for X percent off" special
